@@ -1,0 +1,1 @@
+export { getPaginationContext } from './getPaginationContext';

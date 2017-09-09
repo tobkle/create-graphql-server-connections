@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | create-graphql-server-connections</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Adds cursor based connection pagination to create-graphql-server"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="create-graphql-server-connections"><meta property="twitter:description" content="Adds cursor based connection pagination to create-graphql-server"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/tobkle/create-graphql-server-connections"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-modulePath">modulePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-templates">templates</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">context</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPaginationContext">getPaginationContext</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#resolvers">resolvers</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-resolvers">resolvers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-connectionResolvers">connectionResolvers</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#schema">schema</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-enhanceSchemaWithConnections">enhanceSchemaWithConnections</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-requiredTypes">requiredTypes</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#schema-libs">schema/libs</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addConnectionType">addConnectionType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addConnections">addConnections</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addCursorArgsToQuery">addCursorArgsToQuery</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addEdges">addEdges</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPaginationMode">getPaginationMode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isList">isList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isPaginated">isPaginated</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-removePaginateDirective">removePaginateDirective</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replaceWithCursor">replaceWithCursor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-paginate">paginate</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#util">util</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addPaginationArguments">addPaginationArguments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyCustomDirectives">applyCustomDirectives</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-argumentsToObject">argumentsToObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildArgument">buildArgument</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildField">buildField</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildName">buildName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildTypeDefinition">buildTypeDefinition</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildTypeExtension">buildTypeExtension</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildTypeReference">buildTypeReference</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getBaseType">getBaseType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-idArgument">idArgument</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isScalarField">isScalarField</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_BOTH">PAGINATION_BOTH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_BY">PAGINATION_BY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_CURSOR">PAGINATION_CURSOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_DIRECTIVE">PAGINATION_DIRECTIVE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_SIMPLE">PAGINATION_SIMPLE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-QUERY">QUERY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SCALAR_TYPE_NAMES">SCALAR_TYPE_NAMES</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><p><a href="http://badge.fury.io/js/create-graphql-server-connections"><img src="https://badge.fury.io/js/create-graphql-server-connections.svg" alt="npm version"></a> <a href="https://travis-ci.org/tobkle/create-graphql-server-connections"><img src="https://travis-ci.org/tobkle/create-graphql-server-connections.svg?branch=master" alt="Build Status"></a> <a href="https://coveralls.io/github/tobkle/create-graphql-server-connections?branch=master"><img src="https://coveralls.io/repos/github/tobkle/create-graphql-server-connections/badge.svg?branch=master" alt="Coverage Status"></a></p>
+<h1 id="create-graphql-server-connections">create-graphql-server-connections</h1><p>Build Relay like connections for cursor based pagination.</p>
+<p>TODO: Works on the first manual tests. Didn&apos;t do thoroughly testing so far.</p>
+<p>For array-like fields, you can generate a connection with forward and backward pagination, using first, last, before, after. The pagination starts after applying e.g. filters and orderBys on the remaining document result set.</p>
+<p><a href="https://facebook.github.io/relay/graphql/connections.htm#sec-Edges">It implements the algorithm of the Relay connection specification.</a></p>
+<p>Its generator is triggered only, if there is a directive on header level. If the directive appears, all paginated fields will get cursor-based connections.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">@paginate(by: &quot;cursor&quot;)</code>
+</code></pre>
+<p>If you want to have the &quot;simple&quot; pagination for a type instead, use the following or don&apos;t enter the paginate directive.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">@paginate(by: &quot;simple&quot;)</code>
+</code></pre>
+<p>You can also combine both, meaning all paginated fields will be added to the schema as &quot;simple&quot; paginated fields, but also as a duplicate named as &lt;field&gt;Connection. The latter one will be added as &quot;cursor&quot; based paginated field. Use one of the following alternatives therefore:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">@paginate(by: &quot;both&quot;)
+or:
+@paginate(by: [&quot;simple&quot;, &quot;cursor&quot;])</code>
+</code></pre>
+<h2 id="purpose">Purpose</h2><p>You build a GraphQL server with the npm package &quot;create-graphql-server&quot;, which serves as a backend generator to web applications. This &quot;create-graphql-server&quot; generates schemas, resolvers and models for an express-js server.</p>
+<p>This package enhances the generator to build additional pagination arguments and required resolvers.</p>
+<p>It provides the following additional arguments:</p>
+<p>Use:</p>
+<ul>
+<li>[&lt;first&gt;] &lt;after&gt;</li>
+<li>[&lt;last&gt;] &lt;before&gt;</li>
+</ul>
+<h3 id="forward-pagination">Forward Pagination</h3><p>Forward Pagination returns edges (documents), which are coming after the cursor &lt;after&gt; (which is a document&apos;s ObjID in our case). It returns at most a number of &lt;first&gt; edges.</p>
+<p>The arguments:</p>
+<ul>
+<li>first: takes a non-negative integer</li>
+<li>after: takes the cursor type</li>
+</ul>
+<h3 id="backward-pagination">Backward Pagination</h3><p>Backward Pagination returns edges (documents), which are coming before the cursor &lt;before&gt;. It returns at most a number of &lt;last&gt; edges.</p>
+<p>The arguments:</p>
+<ul>
+<li>last: takes a non-negative integer</li>
+<li>before: takes the cursor type</li>
+</ul>
+<h2 id="installation">Installation</h2><h3 id="adjust-schema">Adjust schema</h3><p>In create-graphql-server go to &quot;generate/schema/index&quot;.</p>
+<p>Add the following code. The import at the beginning the rest at the end of the file.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import { enhanceSchemaWithConnections } from &apos;create-graphql-server-connections&apos;;  // &lt;=== here
+...
+...
+  const outputSchema = enhanceSchemaWithConnections(outputSchema);   // &lt;=== here
+  return outputSchema;
+}</code>
+</code></pre>
+<h3 id="adjust-model">Adjust model</h3><p>In create-graphql-server go to &quot;generate/model/index&quot;.</p>
+<p>Adjust the following code.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">...
+import { templates } from &apos;create-graphql-server-connections&apos;;     // &lt;=== here
+
+...
+
+export function generateModelAst(inputSchema) {
+  // the last template path, determines the start template: type/default
+  // the last path has the highest priority and may overwrite
+  // partial templates, if they have equal names
+  const templateCode = getCode(MODEL, {
+    inputSchema,
+    templatePaths: [
+      templates.model,                                             // &lt;=== here
+      [modulePath, &apos;templates&apos;, &apos;model&apos;, &apos;auth&apos;],
+      [__dirname, &apos;templates&apos;],
+    ]
+  });
+
+...
+
+ }</code>
+</code></pre>
+<h3 id="adjust-resolver">Adjust resolver</h3><p>In create-graphql-server go to &quot;generate/resolvers/index&quot;.</p>
+<p>Adjust the following code.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">...
+import { templates } from &apos;create-graphql-server-connections&apos;;     // &lt;=== here
+
+...
+
+export function generateModelAst(inputSchema) {
+  // the last template path, determines the start template: type/default
+  // the last path has the highest priority and may overwrite
+  // partial templates, if they have equal names
+  const templateCode = getCode(MODEL, {
+    inputSchema,
+    templatePaths: [
+      templates.resolvers,                                         // &lt;=== here
+      [modulePath, &apos;templates&apos;, &apos;model&apos;, &apos;auth&apos;],
+      [__dirname, &apos;templates&apos;],
+    ]
+  });
+
+...
+
+ }</code>
+</code></pre>
+<h3 id="adjust-resolver-templates">Adjust resolver templates</h3><p>In create-graphql-server go to &quot;generate/resolvers/templates/default&quot;</p>
+<p>Change &quot;default_default&quot; template, to this:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">/* eslint-disable prettier */
+/* eslint comma-dangle: [2, &quot;only-multiline&quot;] */
+const resolvers = {
+{{&gt; connectionTypes}}                     // &lt;=== here
+  {{TypeName}}: {
+    id({{typeName}}) {
+      return {{typeName}}._id;
+    },
+{{#each singularFields}}
+{{&gt; defaultSingularField }}
+{{/each}}
+{{&gt; connectionPaginatedFields}}          // &lt;=== here
+
+  },
+  Query: {
+    {{typeName}}s(root, args, { {{TypeName}}, me }) {
+      return {{TypeName}}.find(args, me, &apos;{{typeName}}s&apos;);
+    },
+
+    {{typeName}}(root, { id }, { {{TypeName}}, me }) {
+      return {{TypeName}}.findOneById(id, me, &apos;{{typeName}}&apos;);
+    }
+  },
+
+...</code>
+</code></pre>
+<p>Please add these to referenced partial templates &quot;connectionTypes&quot; and &quot;connectionPaginatedFields&quot; to the resolver.
+These two partials are coming from this npm module. </p>
+<p>If you have create-graphql-server-authorization installed as well, do the same adjustments with your template &quot;authorize_default&quot;.</p>
+<h3 id="adjust-model-templates">Adjust model templates</h3><p>In create-graphql-server go to &quot;generate/model/templates&quot;</p>
+<p>Do the same for all templates:</p>
+<ul>
+<li>default/default_default.template</li>
+<li>user/default_user.template</li>
+</ul>
+<p>If you have &quot;create-graphql-server-authorization&quot; implemented, do it also for</p>
+<ul>
+<li>authorize_default.template</li>
+<li>authorize_user.template</li>
+</ul>
+<p>Change &quot;default/default_default.template&quot; template. Replace all three lines:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">{{#each paginatedFields }}
+{{&gt; defaultPaginatedField }}
+{{/each}}</code>
+</code></pre>
+<p>by this:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">{{&gt; connectionPaginatedFields}}</code>
+</code></pre>
+<h3 id="add-default-resolver-for-pageinfo">Add default resolver for pageInfo</h3><p>In create-graphql-server go to &quot;skel/resolvers/index.js&quot;. We have to add it here, as it is valid for all generated types, but we can add it only once.</p>
+<p>Adjust the code...</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">
+...
+import { resolvers } from &apos;create-graphql-server-connections&apos;;   // &lt;=== here
+merge(resolvers, resolvers.pageInfo);                            // &lt;=== here
+
+export default resolvers;</code>
+</code></pre>
+<p>Do the same in &quot;test/output-app/resolvers/index.js&quot;</p>
+<h3 id="add-paginate-to-the-server-context">Add paginate to the server context</h3><p>In create-graphql-server go to &quot;skel/server/index.js&quot;.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">...
+import { paginate } from &apos;create-graphql-server-connections&apos;;                       // &lt;=== here
+...
+
+app.use(&apos;/graphql&apos;, (req, res, next) =&gt; {
+  passport.authenticate(&apos;jwt&apos;, { session: false }, (err, me) =&gt; {
+    req.context = addModelsToContext({ 
+      db, pubsub, me, UserCollection, findByIds, log, prepareQueries, paginate     // &lt;=== here
+    });
+    graphqlExpress(() =&gt; {
+...
+...
+    })
+  })
+})</code>
+</code></pre>
+<p>Do the same in &quot;test/output-app/server/index.js&quot;.</p>
+<h3 id="finally">Finally</h3><p>If you are having troubles somewhere, have a look into the running example at:
+<a href="https://github.com/tobkle/create-graphql-server/tree/Relay-Pagination">tobkle/create-graphql-server branch: Relay-Pagination</a></p>
+<h2 id="documentation">Documentation</h2><p><a href="https://tobkle.github.io/create-graphql-server-connections/">API Documentation</a></p>
+<h2 id="tests">Tests</h2><p>TODO:</p>
+<pre><code class="lang-bash"><code class="source-code prettyprint">yarn test</code>
+</code></pre>
+<h2 id="contributing">Contributing</h2><p>In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.</p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

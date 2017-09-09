@@ -1,4 +1,4 @@
-export default const requiredTypes = `
+export const requiredTypes = `
 
   interface Node {
     # the ObjID of a node

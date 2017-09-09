@@ -3,7 +3,6 @@
 .*/dist/.*
 .*/coverage/.*
 .*/resources/.*
-/src/schmema/requiredTypes.js
 
 [include]
 

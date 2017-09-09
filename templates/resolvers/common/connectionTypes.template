@@ -1,0 +1,16 @@
+{{#if isBothPagination}}
+{{#foreach paginatedFields}}
+{{#if $first}}
+{{> connectionConnection}}
+{{> connectionEdge}}
+{{/if}}
+{{/foreach}}
+{{/if}}
+{{#if isCursorPagination}}
+{{#foreach paginatedFields}}
+{{#if $first}}
+{{> connectionConnection}}
+{{> connectionEdge}}
+{{/if}}
+{{/foreach}}
+{{/if}}

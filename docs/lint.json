@@ -1,0 +1,94 @@
+[
+  {
+    "name": "hasPreviousPage",
+    "filePath": "src/server/paginate.js",
+    "lines": [
+      {
+        "lineNumber": 185,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 186,
+        "line": " * true, if the current list has a previous page"
+      },
+      {
+        "lineNumber": 187,
+        "line": " * @param {array) allEdges - list of all edges"
+      },
+      {
+        "lineNumber": 188,
+        "line": " * @param {object} args - arguments, coming from graphql request"
+      },
+      {
+        "lineNumber": 189,
+        "line": " * @return {boolean} hasPreviousPage - true, if it has a previous page"
+      },
+      {
+        "lineNumber": 190,
+        "line": " */"
+      },
+      {
+        "lineNumber": 191,
+        "line": ""
+      },
+      {
+        "lineNumber": 192,
+        "line": "function hasPreviousPage(allEdges: any, args: any): boolean {"
+      }
+    ],
+    "codeParams": [
+      "allEdges",
+      "args"
+    ],
+    "docParams": [
+      "{array)",
+      "args"
+    ]
+  },
+  {
+    "name": "hasNextPage",
+    "filePath": "src/server/paginate.js",
+    "lines": [
+      {
+        "lineNumber": 208,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 209,
+        "line": "  * true, if the current list has a next page"
+      },
+      {
+        "lineNumber": 210,
+        "line": "  * @param {array) allEdges - list of all edges"
+      },
+      {
+        "lineNumber": 211,
+        "line": "  * @param {object} args - arguments, coming from graphql request"
+      },
+      {
+        "lineNumber": 212,
+        "line": "  * @return {boolean} hasNextPage - true, if it has a previous page"
+      },
+      {
+        "lineNumber": 213,
+        "line": "  */"
+      },
+      {
+        "lineNumber": 214,
+        "line": ""
+      },
+      {
+        "lineNumber": 215,
+        "line": "function hasNextPage(allEdges: any, args: any): boolean {"
+      }
+    ],
+    "codeParams": [
+      "allEdges",
+      "args"
+    ],
+    "docParams": [
+      "{array)",
+      "args"
+    ]
+  }
+]

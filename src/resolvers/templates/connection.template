@@ -1,9 +1,0 @@
-{{TypeName}}{{RemoteTypeName}}Connection: {
-  edges(conn, args, { {{TypeName}}, me }) {
-    return conn.edges;
-  },
-
-  pageInfo(conn, args, { {{TypeName}}, me }) {
-    return conn.pageInfo;
-  },
-},

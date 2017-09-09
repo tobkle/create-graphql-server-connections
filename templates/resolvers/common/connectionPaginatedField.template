@@ -1,0 +1,5 @@
+
+    async {{fieldName}}Connection({{typeName}}, args, { {{TypeName}}, me}) {
+      const edges = await {{TypeName}}.{{fieldName}}({{typeName}}, args, me, '{{typeName}} {{fieldName}}');
+      return {{TypeName}}.context.paginate(edges, args);
+    },
