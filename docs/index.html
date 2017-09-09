@@ -29,7 +29,8 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-modulePath">modulePath</a></span></span></li>
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-dev_templates">dev_templates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-modulePath">modulePath</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-templates">templates</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">context</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPaginationContext">getPaginationContext</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#resolvers">resolvers</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-resolvers">resolvers</a></span></span></li>
@@ -71,7 +72,7 @@
 
 <div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><p><a href="http://badge.fury.io/js/create-graphql-server-connections"><img src="https://badge.fury.io/js/create-graphql-server-connections.svg" alt="npm version"></a> <a href="https://travis-ci.org/tobkle/create-graphql-server-connections"><img src="https://travis-ci.org/tobkle/create-graphql-server-connections.svg?branch=master" alt="Build Status"></a> <a href="https://coveralls.io/github/tobkle/create-graphql-server-connections?branch=master"><img src="https://coveralls.io/repos/github/tobkle/create-graphql-server-connections/badge.svg?branch=master" alt="Coverage Status"></a></p>
 <h1 id="create-graphql-server-connections">create-graphql-server-connections</h1><p>Build Relay like connections for cursor based pagination.</p>
-<p>TODO: Works on the first manual tests. Didn&apos;t do thoroughly testing so far.</p>
+<p>TODO: First prototype. Didn&apos;t do thoroughly testing so far.</p>
 <p>For array-like fields, you can generate a connection with forward and backward pagination, using first, last, before, after. The pagination starts after applying e.g. filters and orderBys on the remaining document result set.</p>
 <p><a href="https://facebook.github.io/relay/graphql/connections.htm#sec-Edges">It implements the algorithm of the Relay connection specification.</a></p>
 <p>Its generator is triggered only, if there is a directive on header level. If the directive appears, all paginated fields will get cursor-based connections.</p>
@@ -90,8 +91,8 @@ or:
 <p>It provides the following additional arguments:</p>
 <p>Use:</p>
 <ul>
-<li>[&lt;first&gt;] &lt;after&gt;</li>
-<li>[&lt;last&gt;] &lt;before&gt;</li>
+<li>&quot;first&quot; &quot;after&quot;</li>
+<li>&quot;last&quot; &quot;before&quot;</li>
 </ul>
 <h3 id="forward-pagination">Forward Pagination</h3><p>Forward Pagination returns edges (documents), which are coming after the cursor &lt;after&gt; (which is a document&apos;s ObjID in our case). It returns at most a number of &lt;first&gt; edges.</p>
 <p>The arguments:</p>

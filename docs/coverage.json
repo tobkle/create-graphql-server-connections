@@ -1,6 +1,6 @@
 {
-  "coverage": "75.6%",
-  "expectCount": 41,
+  "coverage": "73.8%",
+  "expectCount": 42,
   "actualCount": 31,
   "files": {
     "src/context/getPaginationContext.js": {
@@ -9,9 +9,11 @@
       "undocumentLines": []
     },
     "src/index.js": {
-      "expectCount": 2,
+      "expectCount": 3,
       "actualCount": 2,
-      "undocumentLines": []
+      "undocumentLines": [
+        50
+      ]
     },
     "src/resolvers/PageInfo.js": {
       "expectCount": 1,

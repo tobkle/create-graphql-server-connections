@@ -41,8 +41,14 @@ export const modulePath = __dirname;
  * partial templates for pagination in model and resolver codes are here 
  */
 
-export const templates = {
+export const dev_templates = {
   model: [__dirname, '..', 'templates', 'model'],
   resolvers: [__dirname, '..', 'templates', 'resolvers'],
   schema: [__dirname, '..', 'templates', 'schema']
+};
+
+export const templates = {
+  model: [__dirname, 'templates', 'model'],
+  resolvers: [__dirname, 'templates', 'resolvers'],
+  schema: [__dirname, 'templates', 'schema']
 };

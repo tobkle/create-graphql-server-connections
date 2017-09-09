@@ -29,7 +29,8 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-modulePath">modulePath</a></span></span></li>
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-dev_templates">dev_templates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-modulePath">modulePath</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-templates">templates</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">context</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPaginationContext">getPaginationContext</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#resolvers">resolvers</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-resolvers">resolvers</a></span></span></li>
@@ -83,9 +84,6 @@ import { isPaginated } from &apos;./libs/isPaginated&apos;;
 import { removePaginateDirective } from &apos;./libs/removePaginateDirective&apos;;
 import { replaceWithCursor } from &apos;./libs/replaceWithCursor&apos;;
 
-import {isAuthorizeDirectiveDefined} 
-from &apos;/Users/Toby/MICRO/create-graphql-server-authorization/src/generator/authorize/isAuthorizeDirectiveDefined&apos;;
-
 import {
   DOCUMENT,
   OBJECT_TYPE_DEFINITION,
@@ -126,12 +124,18 @@ export function enhanceSchemaWithConnections(schema: any): any {
             field.name.value = toAdd.fieldName;
             field.type = toAdd.fieldType;
             createEdges = merge(createEdges, toAdd.createEdges);
-            createConnections = merge(createConnections, toAdd.createConnections);
+            createConnections = merge(
+              createConnections,
+              toAdd.createConnections
+            );
           } else if (mode === PAGINATION_BOTH) {
             const toAdd = addConnectionType(field, TypeName);
             fields.push(toAdd.newField);
             createEdges = merge(createEdges, toAdd.createEdges);
-            createConnections = merge(createConnections, toAdd.createConnections);
+            createConnections = merge(
+              createConnections,
+              toAdd.createConnections
+            );
           }
         });
         return true; // end after first match, first ObjectType is our type

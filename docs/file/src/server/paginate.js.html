@@ -29,7 +29,8 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-modulePath">modulePath</a></span></span></li>
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-dev_templates">dev_templates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-modulePath">modulePath</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-templates">templates</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">context</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPaginationContext">getPaginationContext</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#resolvers">resolvers</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-resolvers">resolvers</a></span></span></li>
@@ -256,13 +257,14 @@ function applyCursorsToEdges(
 }
 
 /**
- * true, if the current list has a previous page
- * @param {array) allEdges - list of all edges
- * @param {object} args - arguments, coming from graphql request
- * @return {boolean} hasPreviousPage - true, if it has a previous page
+ * has this page a previous page, if so true
+ * @private
+ * @param {array} allEdges - edges
+ * @param {object} args - the request arguments
+ * @return {boolean} prevPage - has a previous page
  */
 
-function hasPreviousPage(allEdges: any, args: any): boolean {
+function hasPreviousPage(allEdges, args) {
   const { last, before, after } = args;
 
   if (!last) {
@@ -279,11 +281,12 @@ function hasPreviousPage(allEdges: any, args: any): boolean {
 }
 
 /**
-  * true, if the current list has a next page
-  * @param {array) allEdges - list of all edges
-  * @param {object} args - arguments, coming from graphql request
-  * @return {boolean} hasNextPage - true, if it has a previous page
-  */
+ * has this page a next page, if so true
+ * @private
+ * @param {array} allEdges - edges
+ * @param {object} args - the request arguments
+ * @return {boolean} nextPage - has a next page
+ */
 
 function hasNextPage(allEdges: any, args: any): boolean {
   const { first, before, after } = args;

@@ -184,13 +184,14 @@ function applyCursorsToEdges(
 }
 
 /**
- * true, if the current list has a previous page
- * @param {array) allEdges - list of all edges
- * @param {object} args - arguments, coming from graphql request
- * @return {boolean} hasPreviousPage - true, if it has a previous page
+ * has this page a previous page, if so true
+ * @private
+ * @param {array} allEdges - edges
+ * @param {object} args - the request arguments
+ * @return {boolean} prevPage - has a previous page
  */
 
-function hasPreviousPage(allEdges: any, args: any): boolean {
+function hasPreviousPage(allEdges, args) {
   const { last, before, after } = args;
 
   if (!last) {
@@ -207,11 +208,12 @@ function hasPreviousPage(allEdges: any, args: any): boolean {
 }
 
 /**
-  * true, if the current list has a next page
-  * @param {array) allEdges - list of all edges
-  * @param {object} args - arguments, coming from graphql request
-  * @return {boolean} hasNextPage - true, if it has a previous page
-  */
+ * has this page a next page, if so true
+ * @private
+ * @param {array} allEdges - edges
+ * @param {object} args - the request arguments
+ * @return {boolean} nextPage - has a next page
+ */
 
 function hasNextPage(allEdges: any, args: any): boolean {
   const { first, before, after } = args;

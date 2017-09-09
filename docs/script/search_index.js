@@ -126,6 +126,12 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "create-graphql-server-connections/src/index.js~dev_templates",
+    "variable/index.html#static-variable-dev_templates",
+    "<span>dev_templates</span> <span class=\"search-result-import-path\">create-graphql-server-connections/src/index.js</span>",
+    "variable"
+  ],
+  [
     "create-graphql-server-connections/src/schema/enhanceschemawithconnections.js~enhanceschemawithconnections",
     "function/index.html#static-function-enhanceSchemaWithConnections",
     "<span>enhanceSchemaWithConnections</span> <span class=\"search-result-import-path\">create-graphql-server-connections/src/schema/enhanceSchemaWithConnections.js</span>",
