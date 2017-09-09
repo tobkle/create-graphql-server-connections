@@ -35,8 +35,8 @@ This package enhances the generator to build additional pagination arguments and
 It provides the following additional arguments:
 
 Use:
-* [<first>] <after>
-* [<last>] <before>
+* "first" "after"
+* "last" "before"
 
 ### Forward Pagination
 Forward Pagination returns edges (documents), which are coming after the cursor <after> (which is a document's ObjID in our case). It returns at most a number of <first> edges.
