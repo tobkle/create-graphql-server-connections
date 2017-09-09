@@ -11,9 +11,6 @@ import { isPaginated } from './libs/isPaginated';
 import { removePaginateDirective } from './libs/removePaginateDirective';
 import { replaceWithCursor } from './libs/replaceWithCursor';
 
-import {isAuthorizeDirectiveDefined} 
-from '/Users/Toby/MICRO/create-graphql-server-authorization/src/generator/authorize/isAuthorizeDirectiveDefined';
-
 import {
   DOCUMENT,
   OBJECT_TYPE_DEFINITION,
@@ -54,12 +51,18 @@ export function enhanceSchemaWithConnections(schema: any): any {
             field.name.value = toAdd.fieldName;
             field.type = toAdd.fieldType;
             createEdges = merge(createEdges, toAdd.createEdges);
-            createConnections = merge(createConnections, toAdd.createConnections);
+            createConnections = merge(
+              createConnections,
+              toAdd.createConnections
+            );
           } else if (mode === PAGINATION_BOTH) {
             const toAdd = addConnectionType(field, TypeName);
             fields.push(toAdd.newField);
             createEdges = merge(createEdges, toAdd.createEdges);
-            createConnections = merge(createConnections, toAdd.createConnections);
+            createConnections = merge(
+              createConnections,
+              toAdd.createConnections
+            );
           }
         });
         return true; // end after first match, first ObjectType is our type
