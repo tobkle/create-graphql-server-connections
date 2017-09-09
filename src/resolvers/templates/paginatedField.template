@@ -1,0 +1,6 @@
+async {{fieldName}}({{typeName}}, args, { {{TypeName}}, me}) {
+  const pagination = {{TypeName}}.context.cursorBasedPagination;
+  pagination.checkArguments(args);
+  const edges = await {{TypeName}}.{{fieldName}}({{typeName}}, args, me, '{{typeName}} {{fieldName}}');
+  return pagination.get(edges, args);
+},

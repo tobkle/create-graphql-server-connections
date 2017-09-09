@@ -1,0 +1,13 @@
+[ignore]
+.*/lib/.*
+.*/dist/.*
+.*/coverage/.*
+.*/resources/.*
+/src/schmema/requiredTypes.js
+
+[include]
+
+[libs]
+
+[options]
+experimental.const_params=true
