@@ -40,8 +40,8 @@ export function replaceWithCursor(field: any, TypeName: string): any {
   // add cursor-based pagination arguments to the existing field
   newArgs.push(buildArgument('first', 'Int'));
   newArgs.push(buildArgument('last', 'Int'));
-  newArgs.push(buildArgument('before', 'String'));
-  newArgs.push(buildArgument('after', 'String'));
+  newArgs.push(buildArgument('before', 'Float'));
+  newArgs.push(buildArgument('after', 'Float'));
 
   // add Edges and Connections to our to-create-list
   const edgeTypeName = `${TypeName}${BaseType}sEdge`;

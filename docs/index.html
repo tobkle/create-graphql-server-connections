@@ -94,7 +94,7 @@ or:
 <li>&quot;first&quot; &quot;after&quot;</li>
 <li>&quot;last&quot; &quot;before&quot;</li>
 </ul>
-<h3 id="forward-pagination">Forward Pagination</h3><p>Forward Pagination returns edges (documents), which are coming after the cursor &lt;after&gt; (which is a document&apos;s ObjID in our case). It returns at most a number of &lt;first&gt; edges.</p>
+<h3 id="forward-pagination">Forward Pagination</h3><p>Forward Pagination returns edges (documents), which are coming after the cursor &lt;after&gt; (which is a document&apos;s createdAt in our case). It returns at most a number of &lt;first&gt; edges.</p>
 <p>The arguments:</p>
 <ul>
 <li>first: takes a non-negative integer</li>
@@ -136,10 +136,31 @@ export function generateModelAst(inputSchema) {
   });
 
 ...
-
  }</code>
 </code></pre>
-<h3 id="adjust-resolver">Adjust resolver</h3><p>In create-graphql-server go to &quot;generate/resolvers/index&quot;.</p>
+<h3 id="adjust-getcontext">Adjust getContext</h3><p>In create-graphql-server go to &quot;generate/util/getContext.js&quot;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import { getPaginationContext } from &apos;create-graphql-server-connections&apos;;  // &lt;=== here
+...
+
+  // this is the returned data context for the later template processing
+  return {
+    authorize,
+    isUserType,
+    typeName,
+    TypeName,
+    User,
+    userRoles,
+    docRoles,
+    firstUserRole,
+    roleField,
+    singularFields,
+    paginatedFields,
+    ...getPaginationContext(inputSchema)                                   // &lt;=== here
+  };
+}
+...</code>
+</code></pre>
+<h3 id="adjust-type-resolvers">Adjust type resolvers</h3><p>In create-graphql-server go to &quot;generate/resolvers/index&quot;.</p>
 <p>Adjust the following code.</p>
 <pre><code class="lang-javascript"><code class="source-code prettyprint">...
 import { templates } from &apos;create-graphql-server-connections&apos;;     // &lt;=== here
@@ -163,6 +184,23 @@ export function generateModelAst(inputSchema) {
 
  }</code>
 </code></pre>
+<h3 id="adjust-default-schema">Adjust default schema</h3><p>In create-graphql-server go to &quot;skel/schema/index.js&quot;.</p>
+<p>Adjust the following code:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">...
+import path from &apos;path&apos;;                                                // &lt;=== here
+import { templates } from &apos;create-graphql-server-connections&apos;;          // &lt;=== here
+...
+...
+
+typeDefs.push(buildRequiredTypes());
+
+typeDefs.push(requireGraphQL(                                             // &lt;=== here
+  path.join(...templates.schema, &apos;common&apos;, &apos;requiredTypes.graphql&apos;)        // &lt;=== here
+));                                                                        // &lt;=== here
+
+export default typeDefs;</code>
+</code></pre>
+<p>Do the same again in &quot;test/output-app/schema/index.js&quot;</p>
 <h3 id="adjust-resolver-templates">Adjust resolver templates</h3><p>In create-graphql-server go to &quot;generate/resolvers/templates/default&quot;</p>
 <p>Change &quot;default_default&quot; template, to this:</p>
 <pre><code class="lang-javascript"><code class="source-code prettyprint">/* eslint-disable prettier */
@@ -241,11 +279,21 @@ app.use(&apos;/graphql&apos;, (req, res, next) =&gt; {
 })</code>
 </code></pre>
 <p>Do the same in &quot;test/output-app/server/index.js&quot;.</p>
-<h3 id="finally">Finally</h3><p>If you are having troubles somewhere, have a look into the running example at:
-<a href="https://github.com/tobkle/create-graphql-server/tree/Relay-Pagination">tobkle/create-graphql-server branch: Relay-Pagination</a></p>
-<h2 id="documentation">Documentation</h2><p><a href="https://tobkle.github.io/create-graphql-server-connections/">API Documentation</a></p>
-<h2 id="tests">Tests</h2><p>TODO:</p>
-<pre><code class="lang-bash"><code class="source-code prettyprint">yarn test</code>
+<h3 id="package-json">Package.json</h3><p>Add to the &quot;skel/package.json&quot; the following entry:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">&quot;create-graphql-server-connections&quot;: &quot;^0.0.4&quot;,
+``
+
+### Finally
+If you are having troubles somewhere, have a look into the running example at:
+[tobkle/create-graphql-server branch: Relay-Pagination](https://github.com/tobkle/create-graphql-server/tree/Relay-Pagination)
+
+## Documentation
+[API Documentation](https://tobkle.github.io/create-graphql-server-connections/)
+
+## Tests
+TODO:
+```bash
+yarn test</code>
 </code></pre>
 <h2 id="contributing">Contributing</h2><p>In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.</p>
 </div>

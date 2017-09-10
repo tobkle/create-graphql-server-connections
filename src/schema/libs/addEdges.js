@@ -24,7 +24,7 @@ export function addEdges(schema: any, createEdges: any): any {
   Object.keys(createEdges).forEach(edge => {
     const fields = [];
 
-    fields.push(buildField('cursor', [], 'String!'));
+    fields.push(buildField('cursor', [], 'Float!'));
     fields.push(buildField('node', [], `${createEdges[edge]}`));
 
     enhancedSchema.definitions.push(

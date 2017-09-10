@@ -39,7 +39,7 @@ Use:
 * "last" "before"
 
 ### Forward Pagination
-Forward Pagination returns edges (documents), which are coming after the cursor <after> (which is a document's ObjID in our case). It returns at most a number of <first> edges.
+Forward Pagination returns edges (documents), which are coming after the cursor <after> (which is a document's createdAt in our case). It returns at most a number of <first> edges.
 
 The arguments:
 * first: takes a non-negative integer
@@ -91,11 +91,36 @@ export function generateModelAst(inputSchema) {
   });
 
 ...
-
  }
 ```
 
-### Adjust resolver
+### Adjust getContext
+In create-graphql-server go to "generate/util/getContext.js"
+```javascript
+import { getPaginationContext } from 'create-graphql-server-connections';  // <=== here
+...
+
+  // this is the returned data context for the later template processing
+  return {
+    authorize,
+    isUserType,
+    typeName,
+    TypeName,
+    User,
+    userRoles,
+    docRoles,
+    firstUserRole,
+    roleField,
+    singularFields,
+    paginatedFields,
+    ...getPaginationContext(inputSchema)                                   // <=== here
+  };
+}
+...
+
+```
+
+### Adjust type resolvers
 In create-graphql-server go to "generate/resolvers/index".
 
 Adjust the following code.
@@ -122,6 +147,28 @@ export function generateModelAst(inputSchema) {
 
  }
 ```
+
+### Adjust default schema
+In create-graphql-server go to "skel/schema/index.js".
+
+Adjust the following code:
+```javascript
+...
+import path from 'path';												// <=== here
+import { templates } from 'create-graphql-server-connections';          // <=== here
+...
+...
+
+typeDefs.push(buildRequiredTypes());
+
+typeDefs.push(requireGraphQL( 											// <=== here
+  path.join(...templates.schema, 'common', 'requiredTypes.graphql')		// <=== here
+));																		// <=== here
+
+export default typeDefs;
+
+```
+Do the same again in "test/output-app/schema/index.js"
 
 ### Adjust resolver templates
 In create-graphql-server go to "generate/resolvers/templates/default"
@@ -216,6 +263,12 @@ app.use('/graphql', (req, res, next) => {
 })
 ```
 Do the same in "test/output-app/server/index.js".
+
+### Package.json
+Add to the "skel/package.json" the following entry:
+```javascript
+"create-graphql-server-connections": "^0.0.4",
+``
 
 ### Finally
 If you are having troubles somewhere, have a look into the running example at:

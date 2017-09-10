@@ -1,13 +1,13 @@
 export const requiredTypes = `
 
   interface Node {
-    # the ObjID of a node
-    id: ObjID!
+    # the creation Date and Time of a node
+    createdAt: Float!
   }
 
   interface Edge {
-    # cursor containing an ObjID
-    cursor: String!
+    # cursor containing an createdAt
+    cursor: Float!
 
     # node containing data of a type
     node: Node
@@ -31,7 +31,7 @@ export const requiredTypes = `
   
   extend type Query {
     # An entity in the schema
-    node(id: ObjID!): Node
+    node(createdAt: Float!): Node
   }
 
 `;

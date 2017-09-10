@@ -126,7 +126,7 @@ function edgesToReturn(allEdges: Array<any>, args: any): Array<any> {
 
   return edges.map(edge => ({
     node: edge,
-    cursor: edge._id
+    cursor: edge.createdAt
   }));
 }
 
@@ -134,15 +134,15 @@ function edgesToReturn(allEdges: Array<any>, args: any): Array<any> {
  * position the array on the before or after cursor
  * @private
  * @param {array} allEdges - edges, to apply first or last onto
- * @param {string} before - contains ObjID (cursor) of a type
- * @param {string} after - contains ObjID (cursor) of a type
+ * @param {float} before - contains createdAt (cursor) of a type
+ * @param {float} after - contains createdAt (cursor) of a type
  * @return {array} edges - the positioned array of edges
  */
 
 function applyCursorsToEdges(
   allEdges: Array<any>,
-  before: string,
-  after: string
+  before: number,
+  after: number
 ): Array<any> {
   let edges = allEdges;
 
@@ -151,7 +151,7 @@ function applyCursorsToEdges(
     let afterEdge = 0;
 
     allEdges.some((edge, index) => {
-      if (edge && edge._id && edge._id.toString() === after) {
+      if (edge && edge.createdAt && edge.createdAt === after) {
         cursorIndex = index;
         afterEdge = edge;
         return true;
@@ -168,7 +168,7 @@ function applyCursorsToEdges(
     let beforeEdge = 0;
 
     allEdges.some((edge, index) => {
-      if (edge && edge._id && edge._id.toString() === before) {
+      if (edge && edge.createdAt && edge.createdAt === before) {
         cursorIndex = index;
         beforeEdge = edge;
         return true;

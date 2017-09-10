@@ -78,17 +78,19 @@ import { isPaginated } from &apos;./isPaginated&apos;;
 import {
   OBJECT_TYPE_DEFINITION,
   TYPE_EXTENSION_DEFINITION,
-  QUERY
+  QUERY,
+  PAGINATION_CURSOR
 } from &apos;../../util/constants&apos;;
 
 /**
  * adding cursor args to query
  * @private
  * @param {object} schema - schema to be enhanced
+ * @param {string} mode - pagination mode
  * @return {object} enhancedSchema - enhanced schema with cursor args on Query
  */
 
-export function addCursorArgsToQuery(schema: any): any {
+export function addCursorArgsToQuery(schema: any, mode: string): any {
   const enhancedSchema = cloneDeep(schema);
 
   enhancedSchema.definitions
@@ -102,19 +104,20 @@ export function addCursorArgsToQuery(schema: any): any {
       const { fields } = definition;
 
       fields.filter(field =&gt; isPaginated(field)).forEach(field =&gt; {
-        // remove other pagination arguments
-        field.arguments = field.arguments.filter(
-          argument =&gt;
-            argument.name.value !== &apos;limit&apos; &amp;&amp;
-            argument.name.value !== &apos;skip&apos; &amp;&amp;
-            argument.name.value !== &apos;lastCreatedAt&apos;
-        );
-
+        // remove other pagination arguments only, if not in &quot;both&quot; mode
+        if (mode === PAGINATION_CURSOR) {
+          field.arguments = field.arguments.filter(
+            argument =&gt;
+              argument.name.value !== &apos;limit&apos; &amp;&amp;
+              argument.name.value !== &apos;skip&apos; &amp;&amp;
+              argument.name.value !== &apos;lastCreatedAt&apos;
+          );
+        }
         // add cursor-based pagination arguments to the existing field
         field.arguments.push(buildArgument(&apos;first&apos;, &apos;Int&apos;));
         field.arguments.push(buildArgument(&apos;last&apos;, &apos;Int&apos;));
-        field.arguments.push(buildArgument(&apos;before&apos;, &apos;String&apos;));
-        field.arguments.push(buildArgument(&apos;after&apos;, &apos;String&apos;));
+        field.arguments.push(buildArgument(&apos;before&apos;, &apos;Float&apos;));
+        field.arguments.push(buildArgument(&apos;after&apos;, &apos;Float&apos;));
       });
       return true; // end after first match, first found type should be our type
     });

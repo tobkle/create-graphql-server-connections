@@ -693,7 +693,7 @@ according to Relay Cursor Connections Specification</p>
           
           
           
-          <span class="code" data-ice="name"><span><a href="function/index.html#static-function-addCursorArgsToQuery">addCursorArgsToQuery</a></span></span><span class="code" data-ice="signature">(schema: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span>): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span></span>
+          <span class="code" data-ice="name"><span><a href="function/index.html#static-function-addCursorArgsToQuery">addCursorArgsToQuery</a></span></span><span class="code" data-ice="signature">(schema: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span>, mode: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span></span>
         </p>
       </div>
       <div>
@@ -2378,15 +2378,15 @@ type UserTweetsConnection implements Connection {
     
     
     
-    <span class="code" data-ice="name">addCursorArgsToQuery</span><span class="code" data-ice="signature">(schema: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span>): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span></span>
+    <span class="code" data-ice="name">addCursorArgsToQuery</span><span class="code" data-ice="signature">(schema: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span>, mode: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span></span>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/schema/libs/addCursorArgsToQuery.js.html#lineNumber18">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/schema/libs/addCursorArgsToQuery.js.html#lineNumber20">source</a></span></span>
     </span>
   </h3>
 
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {addCursorArgsToQuery} from &apos;<span><a href="file/src/schema/libs/addCursorArgsToQuery.js.html#lineNumber18">create-graphql-server-connections/src/schema/libs/addCursorArgsToQuery.js</a></span>&apos;</code></pre></div>
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {addCursorArgsToQuery} from &apos;<span><a href="file/src/schema/libs/addCursorArgsToQuery.js.html#lineNumber20">create-graphql-server-connections/src/schema/libs/addCursorArgsToQuery.js</a></span>&apos;</code></pre></div>
   
   
   <div data-ice="description"><p>adding cursor args to query</p>
@@ -2407,6 +2407,13 @@ type UserTweetsConnection implements Connection {
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span></td>
       <td data-ice="appendix"></td>
       <td data-ice="description"><p>schema to be enhanced</p>
+</td>
+    </tr>
+<tr data-ice="property" data-depth="0">
+      <td data-ice="name" class="code" data-depth="0">mode</td>
+      <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></td>
+      <td data-ice="appendix"></td>
+      <td data-ice="description"><p>pagination mode</p>
 </td>
     </tr>
 </tbody>

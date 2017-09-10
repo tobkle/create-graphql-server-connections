@@ -110,8 +110,8 @@ export function addConnectionType(field: any, TypeName: string): any {
   // create a new &quot;&lt;baseType&gt;sConnection&quot; field additionally
   newArgs.push(buildArgument(&apos;first&apos;, &apos;Int&apos;));
   newArgs.push(buildArgument(&apos;last&apos;, &apos;Int&apos;));
-  newArgs.push(buildArgument(&apos;before&apos;, &apos;String&apos;));
-  newArgs.push(buildArgument(&apos;after&apos;, &apos;String&apos;));
+  newArgs.push(buildArgument(&apos;before&apos;, &apos;Float&apos;));
+  newArgs.push(buildArgument(&apos;after&apos;, &apos;Float&apos;));
 
   // add a new connection field
   newField = buildField(newConnName, newArgs, ConnectionType);

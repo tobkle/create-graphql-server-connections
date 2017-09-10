@@ -17,3 +17,4 @@ dist
 *.js.flow
 esdoc.json
 log
+npm-local

@@ -70,7 +70,7 @@ export function enhanceSchemaWithConnections(schema: any): any {
 
     // add cursor arguments to the Query extend
     if (mode === PAGINATION_CURSOR || mode === PAGINATION_BOTH) {
-      enhancedSchema = addCursorArgsToQuery(enhancedSchema);
+      enhancedSchema = addCursorArgsToQuery(enhancedSchema, mode);
     }
 
     // finally add the edgeTypes and connectionTypes, but only once

@@ -37,8 +37,8 @@ export function addConnectionType(field: any, TypeName: string): any {
   // create a new "<baseType>sConnection" field additionally
   newArgs.push(buildArgument('first', 'Int'));
   newArgs.push(buildArgument('last', 'Int'));
-  newArgs.push(buildArgument('before', 'String'));
-  newArgs.push(buildArgument('after', 'String'));
+  newArgs.push(buildArgument('before', 'Float'));
+  newArgs.push(buildArgument('after', 'Float'));
 
   // add a new connection field
   newField = buildField(newConnName, newArgs, ConnectionType);
