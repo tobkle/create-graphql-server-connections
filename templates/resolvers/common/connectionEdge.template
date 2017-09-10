@@ -1,0 +1,10 @@
+
+  {{TypeName}}{{ReturnTypeName}}sEdge: {
+    node(edge, args, { {{TypeName}}, me})  {
+      return edge.node;
+    },
+
+    cursor(edge, args, { {{TypeName}}, me})  {
+      return edge.cursor;
+    }
+  },

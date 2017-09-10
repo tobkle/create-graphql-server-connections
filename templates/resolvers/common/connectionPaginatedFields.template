@@ -1,0 +1,16 @@
+{{#if isCursorPagination}}
+{{#each paginatedFields}}
+{{> connectionPaginatedField}}
+{{/each}}
+{{/if}}
+{{#if isBothPagination}}
+{{#each paginatedFields}}
+{{> defaultPaginatedField }}
+{{> connectionPaginatedField}}
+{{/each}}
+{{/if}}
+{{#if isSimplePagination}}
+{{#each paginatedFields}}
+{{> defaultPaginatedField }}
+{{/each}}
+{{/if}}

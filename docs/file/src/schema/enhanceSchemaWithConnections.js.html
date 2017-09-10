@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/schema/enhanceSchemaWithConnections.js | create-graphql-server-connections</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Adds cursor based connection pagination to create-graphql-server"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="create-graphql-server-connections"><meta property="twitter:description" content="Adds cursor based connection pagination to create-graphql-server"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/tobkle/create-graphql-server-connections"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-dev_templates">dev_templates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-modulePath">modulePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-templates">templates</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">context</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPaginationContext">getPaginationContext</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#resolvers">resolvers</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-resolvers">resolvers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-connectionResolvers">connectionResolvers</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#schema">schema</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-enhanceSchemaWithConnections">enhanceSchemaWithConnections</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-requiredTypes">requiredTypes</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#schema-libs">schema/libs</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addConnectionType">addConnectionType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addConnections">addConnections</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addCursorArgsToQuery">addCursorArgsToQuery</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addEdges">addEdges</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPaginationMode">getPaginationMode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isList">isList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isPaginated">isPaginated</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-removePaginateDirective">removePaginateDirective</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replaceWithCursor">replaceWithCursor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-paginate">paginate</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#util">util</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addPaginationArguments">addPaginationArguments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyCustomDirectives">applyCustomDirectives</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-argumentsToObject">argumentsToObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildArgument">buildArgument</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildField">buildField</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildName">buildName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildTypeDefinition">buildTypeDefinition</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildTypeExtension">buildTypeExtension</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildTypeReference">buildTypeReference</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getBaseType">getBaseType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-idArgument">idArgument</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isScalarField">isScalarField</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_BOTH">PAGINATION_BOTH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_BY">PAGINATION_BY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_CURSOR">PAGINATION_CURSOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_DIRECTIVE">PAGINATION_DIRECTIVE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_SIMPLE">PAGINATION_SIMPLE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-QUERY">QUERY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SCALAR_TYPE_NAMES">SCALAR_TYPE_NAMES</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/schema/enhanceSchemaWithConnections.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">// @flow
+import cloneDeep from &apos;lodash.clonedeep&apos;;
+import merge from &apos;lodash.merge&apos;;
+import { buildTypeReference } from &apos;../util/graphql&apos;;
+import { addConnectionType } from &apos;./libs/addConnectionType&apos;;
+import { addCursorArgsToQuery } from &apos;./libs/addCursorArgsToQuery&apos;;
+import { addEdges } from &apos;./libs/addEdges&apos;;
+import { addConnections } from &apos;./libs/addConnections&apos;;
+import { getPaginationMode } from &apos;./libs/getPaginationMode&apos;;
+import { isPaginated } from &apos;./libs/isPaginated&apos;;
+import { removePaginateDirective } from &apos;./libs/removePaginateDirective&apos;;
+import { replaceWithCursor } from &apos;./libs/replaceWithCursor&apos;;
+
+import {
+  DOCUMENT,
+  OBJECT_TYPE_DEFINITION,
+  PAGINATION_SIMPLE,
+  PAGINATION_CURSOR,
+  PAGINATION_BOTH
+} from &apos;../util/constants&apos;;
+
+/**
+ * returns an enhanced schema with cursor based pagination
+ * @public
+ * @param {object} schema - the base schema to work with
+ * @return {object} enhancedSchema - enhanced schema for cursor based pagination
+ */
+
+export function enhanceSchemaWithConnections(schema: any): any {
+  let enhancedSchema = cloneDeep(schema);
+  let createEdges = {};
+  let createConnections = {};
+  let TypeName = &apos;&apos;;
+  let mode = PAGINATION_SIMPLE;
+
+  if (enhancedSchema.kind === DOCUMENT) {
+    enhancedSchema.definitions
+      .filter(def =&gt; def.kind === OBJECT_TYPE_DEFINITION)
+      .some(({ fields, name, directives, interfaces }) =&gt; {
+        TypeName = name.value;
+
+        // add interface &quot;implements Node&quot;
+        interfaces.push(buildTypeReference(&apos;Node&apos;));
+
+        fields.filter(field =&gt; isPaginated(field)).forEach(field =&gt; {
+          mode = getPaginationMode(directives);
+
+          if (mode === PAGINATION_CURSOR) {
+            const toAdd = replaceWithCursor(field, TypeName);
+            field.arguments = toAdd.newArgs;
+            field.name.value = toAdd.fieldName;
+            field.type = toAdd.fieldType;
+            createEdges = merge(createEdges, toAdd.createEdges);
+            createConnections = merge(
+              createConnections,
+              toAdd.createConnections
+            );
+          } else if (mode === PAGINATION_BOTH) {
+            const toAdd = addConnectionType(field, TypeName);
+            fields.push(toAdd.newField);
+            createEdges = merge(createEdges, toAdd.createEdges);
+            createConnections = merge(
+              createConnections,
+              toAdd.createConnections
+            );
+          }
+        });
+        return true; // end after first match, first ObjectType is our type
+      });
+
+    // add cursor arguments to the Query extend
+    if (mode === PAGINATION_CURSOR || mode === PAGINATION_BOTH) {
+      enhancedSchema = addCursorArgsToQuery(enhancedSchema, mode);
+    }
+
+    // finally add the edgeTypes and connectionTypes, but only once
+    enhancedSchema = addEdges(enhancedSchema, createEdges);
+    enhancedSchema = addConnections(enhancedSchema, createConnections);
+    enhancedSchema = removePaginateDirective(enhancedSchema);
+  }
+
+  return enhancedSchema;
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

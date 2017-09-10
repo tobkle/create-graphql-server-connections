@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/server/paginate.js | create-graphql-server-connections</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Adds cursor based connection pagination to create-graphql-server"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="create-graphql-server-connections"><meta property="twitter:description" content="Adds cursor based connection pagination to create-graphql-server"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/tobkle/create-graphql-server-connections"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-dev_templates">dev_templates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-modulePath">modulePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-templates">templates</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">context</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPaginationContext">getPaginationContext</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#resolvers">resolvers</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-resolvers">resolvers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-connectionResolvers">connectionResolvers</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#schema">schema</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-enhanceSchemaWithConnections">enhanceSchemaWithConnections</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-requiredTypes">requiredTypes</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#schema-libs">schema/libs</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addConnectionType">addConnectionType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addConnections">addConnections</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addCursorArgsToQuery">addCursorArgsToQuery</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addEdges">addEdges</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPaginationMode">getPaginationMode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isList">isList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isPaginated">isPaginated</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-removePaginateDirective">removePaginateDirective</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replaceWithCursor">replaceWithCursor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-paginate">paginate</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#util">util</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addPaginationArguments">addPaginationArguments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyCustomDirectives">applyCustomDirectives</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-argumentsToObject">argumentsToObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildArgument">buildArgument</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildField">buildField</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildName">buildName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildTypeDefinition">buildTypeDefinition</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildTypeExtension">buildTypeExtension</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildTypeReference">buildTypeReference</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getBaseType">getBaseType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-idArgument">idArgument</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isScalarField">isScalarField</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_BOTH">PAGINATION_BOTH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_BY">PAGINATION_BY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_CURSOR">PAGINATION_CURSOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_DIRECTIVE">PAGINATION_DIRECTIVE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PAGINATION_SIMPLE">PAGINATION_SIMPLE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-QUERY">QUERY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SCALAR_TYPE_NAMES">SCALAR_TYPE_NAMES</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/server/paginate.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">// @flow
+
+/**
+  * Relay like Cursor-based-Paging
+  *
+  * Use:
+  * [&lt;first&gt;] &lt;after&gt;
+  * [&lt;last&gt;] &lt;before&gt;
+  *
+  * Forward Pagination:
+  * -------------------
+  * first: takes a non-negative integer
+  * after: takes the cursor type
+  * -------------------
+  * returning edges, &lt;after&gt; the cursor, at most &lt;first&gt; edges
+  * 
+  * Backward Navigation: 
+  * --------------------
+  * last: takes a non-negative integer
+  * before: takes the cursor type
+  * --------------------
+  * returning edges, &lt;before&gt; the cursor, at most &lt;last&gt; edges
+  *
+  * Implementing the algorithm according the specification*
+  * https://facebook.github.io/relay/graphql/connections.htm#sec-Edges
+  * 
+  * Pagination Algorithm:
+  * ---------------------
+  * Rules: &lt;first&gt; and &lt;last&gt; at the same time isn&apos;t allowed
+  * 
+  * 1. Filter by cursor:
+  * To determine what edges to return, the connection evaluates
+  * &lt;before&gt; or &lt;after&gt; cursors, to filter the edges.
+  * 
+  * 2. Slice the edges:
+  * Evaluate &lt;first&gt; to slice the edges,
+  * then evaluate &lt;last&gt; to slice the edges
+  */
+
+/**
+ * paginates edges cursor-based 
+ * according to Relay Cursor Connections Specification
+ *
+ * @public
+ * @param {array} allEdges - array of edges to be paginated
+ * @param {object} args - query arguments of the request
+ * @return {object} paginatedEdges - remaining edges to show
+ * @throw {Error} Error - on wrong pagination combinations
+ */
+
+export function paginate(allEdges: Array&lt;any&gt;, args: any): any {
+  return {
+    edges: edgesToReturn(allEdges, args),
+    pageInfo: {
+      hasPreviousPage: hasPreviousPage(allEdges, args),
+      hasNextPage: hasNextPage(allEdges, args)
+    }
+  };
+}
+
+/**
+ * checks the given arguments from a graphql request
+ * and checks, if a valid combination of pagination
+ * has been entered
+ *
+ * @public
+ * @param {object} args - arguments, coming from graphql request
+ * @return {boolean} valid - if pagination arguments are valid
+ * @throw {Error} Error - on wrong pagination combination
+ */
+
+function checkArguments(args: any): boolean {
+  const { skip, limit, first, after, last, before } = args;
+  // checks, if a cursor-based navigation is requested
+  if (first || after || last || before) {
+    if (first &amp;&amp; last) {
+      throw new Error(&apos;Pagination: &lt;first&gt; and &lt;last&gt; can not be combined.&apos;);
+    }
+
+    if (before &amp;&amp; after) {
+      throw new Error(&apos;Pagination: &lt;before&gt; and &lt;after&gt; can not be combined.&apos;);
+    }
+
+    if (first &amp;&amp; first &lt; 0) {
+      throw new Error(&apos;Pagination: &lt;first&gt; must be greater 0&apos;);
+    }
+
+    if (last &amp;&amp; last &lt; 0) {
+      throw new Error(&apos;Pagination: &lt;last&gt; must be greater 0&apos;);
+    }
+
+    if (skip || limit) {
+      throw new Error(`Pagination: &lt;skip&gt;, &lt;limit&gt; can not be combined 
+        with cursor-based ([first]/after) or ([last]/before)`);
+    }
+  }
+  return true;
+}
+
+/**
+ * returns edges processed with first or last
+ * @private
+ * @param {array} allEdges - edges, to apply first or last onto
+ * @param {object} args - arguments from the graphql request
+ * @return {array} edges - the resulting edges
+ */
+
+function edgesToReturn(allEdges: Array&lt;any&gt;, args: any): Array&lt;any&gt; {
+  const { first, after, last, before } = args;
+
+  checkArguments(args);
+
+  let edges = applyCursorsToEdges(allEdges, before, after);
+
+  if (first) {
+    if (edges.length &gt; first) {
+      edges = edges.slice(0, first);
+    }
+  }
+
+  if (last) {
+    if (edges.length &gt; last) {
+      edges = edges.slice(-last);
+    }
+  }
+
+  return edges.map(edge =&gt; ({
+    node: edge,
+    cursor: edge.createdAt
+  }));
+}
+
+/**
+ * position the array on the before or after cursor
+ * @private
+ * @param {array} allEdges - edges, to apply first or last onto
+ * @param {float} before - contains createdAt (cursor) of a type
+ * @param {float} after - contains createdAt (cursor) of a type
+ * @return {array} edges - the positioned array of edges
+ */
+
+function applyCursorsToEdges(
+  allEdges: Array&lt;any&gt;,
+  before: number,
+  after: number
+): Array&lt;any&gt; {
+  let edges = allEdges;
+
+  if (after) {
+    let cursorIndex = 0;
+    let afterEdge = 0;
+
+    allEdges.some((edge, index) =&gt; {
+      if (edge &amp;&amp; edge.createdAt &amp;&amp; edge.createdAt === after) {
+        cursorIndex = index;
+        afterEdge = edge;
+        return true;
+      }
+    });
+
+    if (afterEdge) {
+      edges = allEdges.slice(cursorIndex + 1, allEdges.length);
+    }
+  }
+
+  if (before) {
+    let cursorIndex = 0;
+    let beforeEdge = 0;
+
+    allEdges.some((edge, index) =&gt; {
+      if (edge &amp;&amp; edge.createdAt &amp;&amp; edge.createdAt === before) {
+        cursorIndex = index;
+        beforeEdge = edge;
+        return true;
+      }
+    });
+
+    if (beforeEdge) {
+      edges = allEdges.slice(0, cursorIndex);
+    }
+  }
+
+  return edges;
+}
+
+/**
+ * has this page a previous page, if so true
+ * @private
+ * @param {array} allEdges - edges
+ * @param {object} args - the request arguments
+ * @return {boolean} prevPage - has a previous page
+ */
+
+function hasPreviousPage(allEdges, args) {
+  const { last, before, after } = args;
+
+  if (!last) {
+    return false;
+  }
+
+  const edges = applyCursorsToEdges(allEdges, before, after);
+
+  if (edges.length &gt; last) {
+    return true;
+  }
+
+  return false;
+}
+
+/**
+ * has this page a next page, if so true
+ * @private
+ * @param {array} allEdges - edges
+ * @param {object} args - the request arguments
+ * @return {boolean} nextPage - has a next page
+ */
+
+function hasNextPage(allEdges: any, args: any): boolean {
+  const { first, before, after } = args;
+
+  if (!first) {
+    return false;
+  }
+
+  const edges = applyCursorsToEdges(allEdges, before, after);
+
+  if (edges.length &gt; first) {
+    return true;
+  }
+
+  return false;
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "coverage": "73.8%",
+  "expectCount": 42,
+  "actualCount": 31,
+  "files": {
+    "src/context/getPaginationContext.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/index.js": {
+      "expectCount": 3,
+      "actualCount": 2,
+      "undocumentLines": [
+        50
+      ]
+    },
+    "src/resolvers/PageInfo.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/resolvers/index.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/schema/enhanceSchemaWithConnections.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/libs/addConnectionType.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/libs/addConnections.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/libs/addCursorArgsToQuery.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/libs/addEdges.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/libs/getPaginationMode.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/libs/isList.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/libs/isPaginated.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/libs/removePaginateDirective.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/libs/replaceWithCursor.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/schema/requiredTypes.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/server/paginate.js": {
+      "expectCount": 6,
+      "actualCount": 6,
+      "undocumentLines": []
+    },
+    "src/util/constants.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    "src/util/graphql.js": {
+      "expectCount": 13,
+      "actualCount": 12,
+      "undocumentLines": [
+        4
+      ]
+    }
+  }
+}

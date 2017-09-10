@@ -1,0 +1,2356 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/context/getPaginationContext.js",
+    "content": "// @flow\n\nimport { getPaginationMode } from '../schema';\nimport {\n  PAGINATION_SIMPLE,\n  PAGINATION_CURSOR,\n  PAGINATION_BOTH\n} from '../util/constants';\n\n/**\n * returns an enhanced schema with cursor based pagination\n * @public\n * @param {object} schema - the base schema to work with\n * @return {object} paginationContext - context information about pagination\n * @property {boolean} isSimplePagination - true, if simple pagination only\n * @property {boolean} isCursorPagination - true, if cursor pagination only\n * @property {boolean} isBothPagination - true, if both pagination types apply\n */\n\nexport function getPaginationContext(\n  schema: any\n): {\n  paginationMode: string,\n  isSimplePagination: boolean,\n  isCursorPagination: boolean,\n  isBothPagination: boolean\n} {\n  const paginationMode = getPaginationMode(schema.definitions[0].directives);\n\n  return {\n    paginationMode,\n    isSimplePagination: paginationMode === PAGINATION_SIMPLE,\n    isCursorPagination: paginationMode === PAGINATION_CURSOR,\n    isBothPagination: paginationMode === PAGINATION_BOTH\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/context/getPaginationContext.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "getPaginationContext",
+    "memberof": "src/context/getPaginationContext.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/context/getPaginationContext.js~getPaginationContext",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/context/getPaginationContext.js",
+    "importStyle": "{getPaginationContext}",
+    "description": "returns an enhanced schema with cursor based pagination",
+    "lineNumber": 20,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "schema",
+        "description": "the base schema to work with"
+      }
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "isSimplePagination",
+        "description": "true, if simple pagination only"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "isCursorPagination",
+        "description": "true, if cursor pagination only"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "isBothPagination",
+        "description": "true, if both pagination types apply"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "paginationContext - context information about pagination"
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/context/index.js",
+    "content": "export { getPaginationContext } from './getPaginationContext';\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/context/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "// @flow\n\n/**\n * CREATE-GRAPHQL-SERVER-CONNECTIONS\n *\n * Provides Relay like cursor-based Pagination to create-graphql-server\n * Use the header directive to activate:\n * \n *        @paginate(by: \"cursor\")\n *\n * @module CREATE-GRAPHQL-SERVER-CONNECTIONS\n */\n\n/**\n * provides the pagination context for getContext.js \n */\n\nexport { getPaginationContext } from './context';\n\n/** \n * enhances the schema by additional or altered types \n */\n\nexport { enhanceSchemaWithConnections } from './schema';\n\nexport { connectionResolvers } from './resolvers';\n\n/** \n * provides the pagination logic to server/index.js into the model context\n */\n\nexport { paginate } from './server';\n\n/**\n * to find this path from various places, return this modules absolute path: \n */\n\nexport const modulePath = __dirname;\n\n/** \n * partial templates for pagination in model and resolver codes are here \n */\n\nexport const dev_templates = {\n  model: [__dirname, '..', 'templates', 'model'],\n  resolvers: [__dirname, '..', 'templates', 'resolvers'],\n  schema: [__dirname, '..', 'templates', 'schema']\n};\n\nexport const templates = {\n  model: [__dirname, 'templates', 'model'],\n  resolvers: [__dirname, 'templates', 'resolvers'],\n  schema: [__dirname, 'templates', 'schema']\n};\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "modulePath",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~modulePath",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/index.js",
+    "importStyle": "{modulePath}",
+    "description": "to find this path from various places, return this modules absolute path: ",
+    "lineNumber": 38,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "dev_templates",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~dev_templates",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/index.js",
+    "importStyle": "{dev_templates}",
+    "description": "partial templates for pagination in model and resolver codes are here ",
+    "lineNumber": 44,
+    "type": {
+      "types": [
+        "{\"model\": *, \"resolvers\": *, \"schema\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "templates",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~templates",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/index.js",
+    "importStyle": "{templates}",
+    "description": null,
+    "lineNumber": 50,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"model\": *, \"resolvers\": *, \"schema\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/resolvers/PageInfo.js",
+    "content": "/* eslint-disable no-unused-vars */\n\nconst resolvers = {\n  PageInfo: {\n    hasPreviousPage(pageInfo, args, { PageInfo, me }) {\n      return pageInfo.hasPreviousPage;\n    },\n\n    hasNextPage(pageInfo, args, { PageInfo, me }) {\n      return pageInfo.hasNextPage;\n    }\n  }\n};\n\nexport default resolvers;\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/resolvers/PageInfo.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "resolvers",
+    "memberof": "src/resolvers/PageInfo.js",
+    "static": true,
+    "longname": "src/resolvers/PageInfo.js~resolvers",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/resolvers/PageInfo.js",
+    "importStyle": "resolvers",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"PageInfo\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/resolvers/index.js",
+    "content": "import pageInfo from './PageInfo';\n\nexport const connectionResolvers = {\n  pageInfo\n};\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/resolvers/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "connectionResolvers",
+    "memberof": "src/resolvers/index.js",
+    "static": true,
+    "longname": "src/resolvers/index.js~connectionResolvers",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/resolvers/index.js",
+    "importStyle": "{connectionResolvers}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"pageInfo\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "src/schema/enhanceSchemaWithConnections.js",
+    "content": "// @flow\nimport cloneDeep from 'lodash.clonedeep';\nimport merge from 'lodash.merge';\nimport { buildTypeReference } from '../util/graphql';\nimport { addConnectionType } from './libs/addConnectionType';\nimport { addCursorArgsToQuery } from './libs/addCursorArgsToQuery';\nimport { addEdges } from './libs/addEdges';\nimport { addConnections } from './libs/addConnections';\nimport { getPaginationMode } from './libs/getPaginationMode';\nimport { isPaginated } from './libs/isPaginated';\nimport { removePaginateDirective } from './libs/removePaginateDirective';\nimport { replaceWithCursor } from './libs/replaceWithCursor';\n\nimport {\n  DOCUMENT,\n  OBJECT_TYPE_DEFINITION,\n  PAGINATION_SIMPLE,\n  PAGINATION_CURSOR,\n  PAGINATION_BOTH\n} from '../util/constants';\n\n/**\n * returns an enhanced schema with cursor based pagination\n * @public\n * @param {object} schema - the base schema to work with\n * @return {object} enhancedSchema - enhanced schema for cursor based pagination\n */\n\nexport function enhanceSchemaWithConnections(schema: any): any {\n  let enhancedSchema = cloneDeep(schema);\n  let createEdges = {};\n  let createConnections = {};\n  let TypeName = '';\n  let mode = PAGINATION_SIMPLE;\n\n  if (enhancedSchema.kind === DOCUMENT) {\n    enhancedSchema.definitions\n      .filter(def => def.kind === OBJECT_TYPE_DEFINITION)\n      .some(({ fields, name, directives, interfaces }) => {\n        TypeName = name.value;\n\n        // add interface \"implements Node\"\n        interfaces.push(buildTypeReference('Node'));\n\n        fields.filter(field => isPaginated(field)).forEach(field => {\n          mode = getPaginationMode(directives);\n\n          if (mode === PAGINATION_CURSOR) {\n            const toAdd = replaceWithCursor(field, TypeName);\n            field.arguments = toAdd.newArgs;\n            field.name.value = toAdd.fieldName;\n            field.type = toAdd.fieldType;\n            createEdges = merge(createEdges, toAdd.createEdges);\n            createConnections = merge(\n              createConnections,\n              toAdd.createConnections\n            );\n          } else if (mode === PAGINATION_BOTH) {\n            const toAdd = addConnectionType(field, TypeName);\n            fields.push(toAdd.newField);\n            createEdges = merge(createEdges, toAdd.createEdges);\n            createConnections = merge(\n              createConnections,\n              toAdd.createConnections\n            );\n          }\n        });\n        return true; // end after first match, first ObjectType is our type\n      });\n\n    // add cursor arguments to the Query extend\n    if (mode === PAGINATION_CURSOR || mode === PAGINATION_BOTH) {\n      enhancedSchema = addCursorArgsToQuery(enhancedSchema, mode);\n    }\n\n    // finally add the edgeTypes and connectionTypes, but only once\n    enhancedSchema = addEdges(enhancedSchema, createEdges);\n    enhancedSchema = addConnections(enhancedSchema, createConnections);\n    enhancedSchema = removePaginateDirective(enhancedSchema);\n  }\n\n  return enhancedSchema;\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/enhanceSchemaWithConnections.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "enhanceSchemaWithConnections",
+    "memberof": "src/schema/enhanceSchemaWithConnections.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/enhanceSchemaWithConnections.js~enhanceSchemaWithConnections",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/enhanceSchemaWithConnections.js",
+    "importStyle": "{enhanceSchemaWithConnections}",
+    "description": "returns an enhanced schema with cursor based pagination",
+    "lineNumber": 29,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "schema",
+        "description": "the base schema to work with"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "enhancedSchema - enhanced schema for cursor based pagination"
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/schema/index.js",
+    "content": "export { enhanceSchemaWithConnections } from './enhanceSchemaWithConnections';\nexport { requiredTypes } from './requiredTypes';\nexport { getPaginationMode } from './libs/getPaginationMode';\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "src/schema/libs/addConnectionType.js",
+    "content": "// @flow\nimport { buildField, buildArgument, getBaseType } from '../../util/graphql';\n\n/**\n * prepares to add a new connection type\n * @private\n * @param {object} field - the current paginated field\n * @param {string} TypeName - name of the type\n * @return {object} toAdd - changes to adjust\n * @property {object} createEdges - edge types to be added\n * @property {object} createConnections - connection types to be added\n * @property {object} newField - field to be added\n */\n\nexport function addConnectionType(field: any, TypeName: string): any {\n  const newArgs = [];\n  const createEdges = {};\n  const createConnections = {};\n  let newField = {};\n\n  const BaseType = getBaseType(field.type).name.value;\n  const ConnectionType = `${TypeName}${BaseType}sConnection`;\n  const newConnName = `${field.name.value}Connection`;\n\n  // get other arguments of the user's fields\n  field.arguments.forEach(argument => {\n    // except for other pagination fields...\n    if (\n      argument.name.value !== 'limit' &&\n      argument.name.value !== 'skip' &&\n      argument.name.value !== 'lastCreatedAt'\n    ) {\n      newArgs.push(argument);\n    }\n  });\n\n  // create a new \"<baseType>sConnection\" field additionally\n  newArgs.push(buildArgument('first', 'Int'));\n  newArgs.push(buildArgument('last', 'Int'));\n  newArgs.push(buildArgument('before', 'Float'));\n  newArgs.push(buildArgument('after', 'Float'));\n\n  // add a new connection field\n  newField = buildField(newConnName, newArgs, ConnectionType);\n\n  // add Edges and Connections to our to-be-created-dictionary\n  const edgeTypeName = `${TypeName}${BaseType}sEdge`;\n  createEdges[edgeTypeName] = `${BaseType}`;\n  createConnections[ConnectionType] = `${edgeTypeName}`;\n\n  return { createEdges, createConnections, newField };\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/libs/addConnectionType.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "addConnectionType",
+    "memberof": "src/schema/libs/addConnectionType.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/libs/addConnectionType.js~addConnectionType",
+    "access": "private",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/libs/addConnectionType.js",
+    "importStyle": "{addConnectionType}",
+    "description": "prepares to add a new connection type",
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "field",
+        "description": "the current paginated field"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "TypeName",
+        "description": "name of the type"
+      }
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "createEdges",
+        "description": "edge types to be added"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "createConnections",
+        "description": "connection types to be added"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "newField",
+        "description": "field to be added"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "toAdd - changes to adjust"
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "src/schema/libs/addConnections.js",
+    "content": "// @flow\nimport cloneDeep from 'lodash.clonedeep';\nimport { buildField, buildTypeDefinition } from '../../util/graphql';\nimport { OBJECT_TYPE_DEFINITION } from '../../util/constants';\n\n/**\n * add Connection Types\n * @private\n * @param {object} schema - the schema to be enhanced\n * @param {object} createConnections - the conns to be created as dictionary\n * @return {object} enhancedSchema - the enhanced schema with connections\n * e.g.:\n * type UserTweetsConnection implements Connection {\n *   edges: [UserTweetsEdge]\n *   pageInfo: PageInfo!\n * }\n */\n\nexport function addConnections(schema: any, createConnections: any): any {\n  const enhancedSchema = cloneDeep(schema);\n\n  Object.keys(createConnections).forEach(connection => {\n    const fields = [];\n\n    fields.push(buildField('edges', [], `[${createConnections[connection]}]`));\n    fields.push(buildField('pageInfo', [], 'PageInfo!'));\n\n    enhancedSchema.definitions.push(\n      buildTypeDefinition(connection, fields, OBJECT_TYPE_DEFINITION, [])\n    );\n  });\n\n  return enhancedSchema;\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/libs/addConnections.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "addConnections",
+    "memberof": "src/schema/libs/addConnections.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/libs/addConnections.js~addConnections",
+    "access": "private",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/libs/addConnections.js",
+    "importStyle": "{addConnections}",
+    "description": "add Connection Types",
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "schema",
+        "description": "the schema to be enhanced"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "createConnections",
+        "description": "the conns to be created as dictionary"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "enhancedSchema - the enhanced schema with connections\ne.g.:\ntype UserTweetsConnection implements Connection {\n  edges: [UserTweetsEdge]\n  pageInfo: PageInfo!\n}"
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/schema/libs/addCursorArgsToQuery.js",
+    "content": "// @flow\nimport cloneDeep from 'lodash.clonedeep';\nimport { buildArgument } from '../../util/graphql';\nimport { isPaginated } from './isPaginated';\nimport {\n  OBJECT_TYPE_DEFINITION,\n  TYPE_EXTENSION_DEFINITION,\n  QUERY,\n  PAGINATION_CURSOR\n} from '../../util/constants';\n\n/**\n * adding cursor args to query\n * @private\n * @param {object} schema - schema to be enhanced\n * @param {string} mode - pagination mode\n * @return {object} enhancedSchema - enhanced schema with cursor args on Query\n */\n\nexport function addCursorArgsToQuery(schema: any, mode: string): any {\n  const enhancedSchema = cloneDeep(schema);\n\n  enhancedSchema.definitions\n    .filter(\n      def =>\n        def.kind === TYPE_EXTENSION_DEFINITION &&\n        def.definition.kind === OBJECT_TYPE_DEFINITION &&\n        def.definition.name.value === QUERY\n    )\n    .some(({ definition }) => {\n      const { fields } = definition;\n\n      fields.filter(field => isPaginated(field)).forEach(field => {\n        // remove other pagination arguments only, if not in \"both\" mode\n        if (mode === PAGINATION_CURSOR) {\n          field.arguments = field.arguments.filter(\n            argument =>\n              argument.name.value !== 'limit' &&\n              argument.name.value !== 'skip' &&\n              argument.name.value !== 'lastCreatedAt'\n          );\n        }\n        // add cursor-based pagination arguments to the existing field\n        field.arguments.push(buildArgument('first', 'Int'));\n        field.arguments.push(buildArgument('last', 'Int'));\n        field.arguments.push(buildArgument('before', 'Float'));\n        field.arguments.push(buildArgument('after', 'Float'));\n      });\n      return true; // end after first match, first found type should be our type\n    });\n\n  return enhancedSchema;\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/libs/addCursorArgsToQuery.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "addCursorArgsToQuery",
+    "memberof": "src/schema/libs/addCursorArgsToQuery.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/libs/addCursorArgsToQuery.js~addCursorArgsToQuery",
+    "access": "private",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/libs/addCursorArgsToQuery.js",
+    "importStyle": "{addCursorArgsToQuery}",
+    "description": "adding cursor args to query",
+    "lineNumber": 20,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "schema",
+        "description": "schema to be enhanced"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "mode",
+        "description": "pagination mode"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "enhancedSchema - enhanced schema with cursor args on Query"
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "src/schema/libs/addEdges.js",
+    "content": "// @flow\nimport cloneDeep from 'lodash.clonedeep';\nimport { OBJECT_TYPE_DEFINITION } from '../../util/constants';\nimport { buildField, buildTypeDefinition } from '../../util/graphql';\n\n/**\n * add Edge Types\n * @private\n * @param {object} schema - the schema to be enhanced\n * @param {object} createEdges - the edges to be created\n * @return {object} enhancedSchema - the enhanced schema with edges\n * @example\n *\n * type UserTweetsEdge implements Edge {\n *   cursor: String!\n *   node: Tweet\n * }\n *\n */\n\nexport function addEdges(schema: any, createEdges: any): any {\n  const enhancedSchema = cloneDeep(schema);\n\n  Object.keys(createEdges).forEach(edge => {\n    const fields = [];\n\n    fields.push(buildField('cursor', [], 'Float!'));\n    fields.push(buildField('node', [], `${createEdges[edge]}`));\n\n    enhancedSchema.definitions.push(\n      buildTypeDefinition(edge, fields, OBJECT_TYPE_DEFINITION, [])\n    );\n  });\n\n  return enhancedSchema;\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/libs/addEdges.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "addEdges",
+    "memberof": "src/schema/libs/addEdges.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/libs/addEdges.js~addEdges",
+    "access": "private",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/libs/addEdges.js",
+    "importStyle": "{addEdges}",
+    "description": "add Edge Types",
+    "examples": [
+      "\ntype UserTweetsEdge implements Edge {\n  cursor: String!\n  node: Tweet\n}"
+    ],
+    "lineNumber": 21,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "schema",
+        "description": "the schema to be enhanced"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "createEdges",
+        "description": "the edges to be created"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "enhancedSchema - the enhanced schema with edges"
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/schema/libs/getPaginationMode.js",
+    "content": "// @flow\nimport {\n  PAGINATION_DIRECTIVE,\n  PAGINATION_BY,\n  PAGINATION_SIMPLE,\n  PAGINATION_CURSOR,\n  PAGINATION_BOTH\n} from '../../util/constants';\n\n/**\n * checks, if there is a @paginate directive in the header and returns which\n * @public\n * @param {object} directives - header directives of the type\n * @return {string} mode - PAGINATION_SIMPLE, PAGINATION_CURSOR, PAGINATION_BOTH\n */\n\nexport function getPaginationMode(directives: any): string {\n  const mode = PAGINATION_SIMPLE;\n  const modes = [];\n\n  directives\n    .filter(directive => directive.name.value === PAGINATION_DIRECTIVE)\n    .some(directive => {\n      directive.arguments\n        .filter(argument => argument.name.value === PAGINATION_BY)\n        .forEach(argument => {\n          if (argument.value.values) {\n            argument.value.values\n              .filter(\n                value =>\n                  value.value === PAGINATION_SIMPLE ||\n                  value.value === PAGINATION_CURSOR ||\n                  value.value === PAGINATION_BOTH\n              )\n              .forEach(value => modes.push(value.value));\n          } else if (\n            argument.value.value === PAGINATION_SIMPLE ||\n            argument.value.value === PAGINATION_CURSOR ||\n            argument.value.value === PAGINATION_BOTH\n          ) {\n            modes.push(argument.value.value);\n          }\n          return true;\n        });\n    });\n\n  if (modes.length > 1) {\n    return PAGINATION_BOTH;\n  } else if (modes.length === 1) {\n    return modes[0];\n  }\n  return mode;\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/libs/getPaginationMode.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "getPaginationMode",
+    "memberof": "src/schema/libs/getPaginationMode.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/libs/getPaginationMode.js~getPaginationMode",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/libs/getPaginationMode.js",
+    "importStyle": "{getPaginationMode}",
+    "description": "checks, if there is a @paginate directive in the header and returns which",
+    "lineNumber": 17,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "directives",
+        "description": "header directives of the type"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "mode - PAGINATION_SIMPLE, PAGINATION_CURSOR, PAGINATION_BOTH"
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/schema/libs/isList.js",
+    "content": "// @flow\nimport { LIST_TYPE } from '../../util/constants';\n\n/**\n * true, if it is a list type\n * @public\n * @param {object} type - ast type definition\n * @return {boolean} list - true, if it is a list\n */\n\nexport function isList(type: any): boolean {\n  if (type.kind && type.kind === LIST_TYPE) {\n    return true;\n  } else if (type.type) {\n    return isList(type.type);\n  }\n  return false;\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/libs/isList.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "isList",
+    "memberof": "src/schema/libs/isList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/libs/isList.js~isList",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/libs/isList.js",
+    "importStyle": "{isList}",
+    "description": "true, if it is a list type",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": "ast type definition"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "list - true, if it is a list"
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/schema/libs/isPaginated.js",
+    "content": "// @flow\nimport { isScalarField } from '../../util/graphql';\nimport { isList } from './isList';\n/**\n * true, if it is a paginated field\n * @public\n * @param {object} field - field\n * @return {boolean} paginated - true, if it is a paginated field\n */\n\nexport function isPaginated(field: any): boolean {\n  if (isScalarField(field)) {\n    return false;\n  }\n  return isList(field.type);\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/libs/isPaginated.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "isPaginated",
+    "memberof": "src/schema/libs/isPaginated.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/libs/isPaginated.js~isPaginated",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/libs/isPaginated.js",
+    "importStyle": "{isPaginated}",
+    "description": "true, if it is a paginated field",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "field",
+        "description": "field"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "paginated - true, if it is a paginated field"
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/schema/libs/removePaginateDirective.js",
+    "content": "// @flow\nimport cloneDeep from 'lodash.clonedeep';\nimport { PAGINATION_DIRECTIVE } from '../../util/constants';\n\n/**\n * remove @paginate directive from schema header\n * @public\n * @param {object} schema - schema for the type\n * @return {object} enhancedSchema - schema without @paginate directive\n */\n\nexport function removePaginateDirective(schema: any): any {\n  const enhancedSchema = cloneDeep(schema);\n\n  // remove @paginate directive from header\n  const type = enhancedSchema.definitions[0];\n  type.directives = type.directives.filter(\n    directive => directive.name.value !== PAGINATION_DIRECTIVE\n  );\n\n  return enhancedSchema;\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/libs/removePaginateDirective.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "removePaginateDirective",
+    "memberof": "src/schema/libs/removePaginateDirective.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/libs/removePaginateDirective.js~removePaginateDirective",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/libs/removePaginateDirective.js",
+    "importStyle": "{removePaginateDirective}",
+    "description": "remove @paginate directive from schema header",
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "schema",
+        "description": "schema for the type"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "enhancedSchema - schema without @paginate directive"
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "src/schema/libs/replaceWithCursor.js",
+    "content": "// @flow\nimport {\n  buildArgument,\n  buildTypeReference,\n  getBaseType\n} from '../../util/graphql';\n\n/**\n * prepares to adjust a paginated type with a cursor based paginated type\n * @private\n * @param {object} field - the current paginated field\n * @param {string} TypeName - name of the type\n * @return {object} toAdd - changes to adjust\n * @property {object} createEdges - edge types to be added\n * @property {object} createConnections - connection types to be added\n * @property {array} newArgs - paging arguments to be added to the field\n * @property {array} fieldName - the suggested field name for the connection\n * @property {array} fieldType - the suggested field type for the connection\n */\n\nexport function replaceWithCursor(field: any, TypeName: string): any {\n  let newArgs = [];\n  const createEdges = {};\n  const createConnections = {};\n\n  const BaseType = getBaseType(field.type).name.value;\n  const ConnectionType = `${TypeName}${BaseType}sConnection`;\n  const newConnName = `${field.name.value}Connection`;\n\n  // remove other pagination arguments\n  if (field.arguments.length > 0) {\n    newArgs = field.arguments.filter(\n      argument =>\n        argument.name.value !== 'limit' &&\n        argument.name.value !== 'skip' &&\n        argument.name.value !== 'lastCreatedAt'\n    );\n  }\n\n  // add cursor-based pagination arguments to the existing field\n  newArgs.push(buildArgument('first', 'Int'));\n  newArgs.push(buildArgument('last', 'Int'));\n  newArgs.push(buildArgument('before', 'Float'));\n  newArgs.push(buildArgument('after', 'Float'));\n\n  // add Edges and Connections to our to-create-list\n  const edgeTypeName = `${TypeName}${BaseType}sEdge`;\n  createEdges[edgeTypeName] = `${BaseType}`;\n  createConnections[ConnectionType] = `${edgeTypeName}`;\n\n  return {\n    createEdges,\n    createConnections,\n    newArgs,\n    fieldName: newConnName,\n    fieldType: buildTypeReference(ConnectionType)\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/libs/replaceWithCursor.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "replaceWithCursor",
+    "memberof": "src/schema/libs/replaceWithCursor.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/schema/libs/replaceWithCursor.js~replaceWithCursor",
+    "access": "private",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/libs/replaceWithCursor.js",
+    "importStyle": "{replaceWithCursor}",
+    "description": "prepares to adjust a paginated type with a cursor based paginated type",
+    "lineNumber": 21,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "field",
+        "description": "the current paginated field"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "TypeName",
+        "description": "name of the type"
+      }
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "createEdges",
+        "description": "edge types to be added"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "createConnections",
+        "description": "connection types to be added"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "newArgs",
+        "description": "paging arguments to be added to the field"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fieldName",
+        "description": "the suggested field name for the connection"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fieldType",
+        "description": "the suggested field type for the connection"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "toAdd - changes to adjust"
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "src/schema/requiredTypes.js",
+    "content": "export const requiredTypes = `\n\n  interface Node {\n    # the creation Date and Time of a node\n    createdAt: Float!\n  }\n\n  interface Edge {\n    # cursor containing an createdAt\n    cursor: Float!\n\n    # node containing data of a type\n    node: Node\n  }\n\n  interface Connection {\n    # edges\n    edges: [Edge]\n\n    # information for previous or next pages\n    pageInfo: PageInfo\n  }\n\n  type PageInfo {\n    # no previous page available\n    hasPreviousPage: Boolean!\n\n    # no next page available\n    hasNextPage: Boolean!\n  }\n  \n  extend type Query {\n    # An entity in the schema\n    node(createdAt: Float!): Node\n  }\n\n`;\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/schema/requiredTypes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "variable",
+    "name": "requiredTypes",
+    "memberof": "src/schema/requiredTypes.js",
+    "static": true,
+    "longname": "src/schema/requiredTypes.js~requiredTypes",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/schema/requiredTypes.js",
+    "importStyle": "{requiredTypes}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/server/index.js",
+    "content": "export { paginate } from './paginate';\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/server/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "file",
+    "name": "src/server/paginate.js",
+    "content": "// @flow\n\n/**\n  * Relay like Cursor-based-Paging\n  *\n  * Use:\n  * [<first>] <after>\n  * [<last>] <before>\n  *\n  * Forward Pagination:\n  * -------------------\n  * first: takes a non-negative integer\n  * after: takes the cursor type\n  * -------------------\n  * returning edges, <after> the cursor, at most <first> edges\n  * \n  * Backward Navigation: \n  * --------------------\n  * last: takes a non-negative integer\n  * before: takes the cursor type\n  * --------------------\n  * returning edges, <before> the cursor, at most <last> edges\n  *\n  * Implementing the algorithm according the specification*\n  * https://facebook.github.io/relay/graphql/connections.htm#sec-Edges\n  * \n  * Pagination Algorithm:\n  * ---------------------\n  * Rules: <first> and <last> at the same time isn't allowed\n  * \n  * 1. Filter by cursor:\n  * To determine what edges to return, the connection evaluates\n  * <before> or <after> cursors, to filter the edges.\n  * \n  * 2. Slice the edges:\n  * Evaluate <first> to slice the edges,\n  * then evaluate <last> to slice the edges\n  */\n\n/**\n * paginates edges cursor-based \n * according to Relay Cursor Connections Specification\n *\n * @public\n * @param {array} allEdges - array of edges to be paginated\n * @param {object} args - query arguments of the request\n * @return {object} paginatedEdges - remaining edges to show\n * @throw {Error} Error - on wrong pagination combinations\n */\n\nexport function paginate(allEdges: Array<any>, args: any): any {\n  return {\n    edges: edgesToReturn(allEdges, args),\n    pageInfo: {\n      hasPreviousPage: hasPreviousPage(allEdges, args),\n      hasNextPage: hasNextPage(allEdges, args)\n    }\n  };\n}\n\n/**\n * checks the given arguments from a graphql request\n * and checks, if a valid combination of pagination\n * has been entered\n *\n * @public\n * @param {object} args - arguments, coming from graphql request\n * @return {boolean} valid - if pagination arguments are valid\n * @throw {Error} Error - on wrong pagination combination\n */\n\nfunction checkArguments(args: any): boolean {\n  const { skip, limit, first, after, last, before } = args;\n  // checks, if a cursor-based navigation is requested\n  if (first || after || last || before) {\n    if (first && last) {\n      throw new Error('Pagination: <first> and <last> can not be combined.');\n    }\n\n    if (before && after) {\n      throw new Error('Pagination: <before> and <after> can not be combined.');\n    }\n\n    if (first && first < 0) {\n      throw new Error('Pagination: <first> must be greater 0');\n    }\n\n    if (last && last < 0) {\n      throw new Error('Pagination: <last> must be greater 0');\n    }\n\n    if (skip || limit) {\n      throw new Error(`Pagination: <skip>, <limit> can not be combined \n        with cursor-based ([first]/after) or ([last]/before)`);\n    }\n  }\n  return true;\n}\n\n/**\n * returns edges processed with first or last\n * @private\n * @param {array} allEdges - edges, to apply first or last onto\n * @param {object} args - arguments from the graphql request\n * @return {array} edges - the resulting edges\n */\n\nfunction edgesToReturn(allEdges: Array<any>, args: any): Array<any> {\n  const { first, after, last, before } = args;\n\n  checkArguments(args);\n\n  let edges = applyCursorsToEdges(allEdges, before, after);\n\n  if (first) {\n    if (edges.length > first) {\n      edges = edges.slice(0, first);\n    }\n  }\n\n  if (last) {\n    if (edges.length > last) {\n      edges = edges.slice(-last);\n    }\n  }\n\n  return edges.map(edge => ({\n    node: edge,\n    cursor: edge.createdAt\n  }));\n}\n\n/**\n * position the array on the before or after cursor\n * @private\n * @param {array} allEdges - edges, to apply first or last onto\n * @param {float} before - contains createdAt (cursor) of a type\n * @param {float} after - contains createdAt (cursor) of a type\n * @return {array} edges - the positioned array of edges\n */\n\nfunction applyCursorsToEdges(\n  allEdges: Array<any>,\n  before: number,\n  after: number\n): Array<any> {\n  let edges = allEdges;\n\n  if (after) {\n    let cursorIndex = 0;\n    let afterEdge = 0;\n\n    allEdges.some((edge, index) => {\n      if (edge && edge.createdAt && edge.createdAt === after) {\n        cursorIndex = index;\n        afterEdge = edge;\n        return true;\n      }\n    });\n\n    if (afterEdge) {\n      edges = allEdges.slice(cursorIndex + 1, allEdges.length);\n    }\n  }\n\n  if (before) {\n    let cursorIndex = 0;\n    let beforeEdge = 0;\n\n    allEdges.some((edge, index) => {\n      if (edge && edge.createdAt && edge.createdAt === before) {\n        cursorIndex = index;\n        beforeEdge = edge;\n        return true;\n      }\n    });\n\n    if (beforeEdge) {\n      edges = allEdges.slice(0, cursorIndex);\n    }\n  }\n\n  return edges;\n}\n\n/**\n * has this page a previous page, if so true\n * @private\n * @param {array} allEdges - edges\n * @param {object} args - the request arguments\n * @return {boolean} prevPage - has a previous page\n */\n\nfunction hasPreviousPage(allEdges, args) {\n  const { last, before, after } = args;\n\n  if (!last) {\n    return false;\n  }\n\n  const edges = applyCursorsToEdges(allEdges, before, after);\n\n  if (edges.length > last) {\n    return true;\n  }\n\n  return false;\n}\n\n/**\n * has this page a next page, if so true\n * @private\n * @param {array} allEdges - edges\n * @param {object} args - the request arguments\n * @return {boolean} nextPage - has a next page\n */\n\nfunction hasNextPage(allEdges: any, args: any): boolean {\n  const { first, before, after } = args;\n\n  if (!first) {\n    return false;\n  }\n\n  const edges = applyCursorsToEdges(allEdges, before, after);\n\n  if (edges.length > first) {\n    return true;\n  }\n\n  return false;\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/server/paginate.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "paginate",
+    "memberof": "src/server/paginate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/server/paginate.js~paginate",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/server/paginate.js",
+    "importStyle": "{paginate}",
+    "description": "paginates edges cursor-based \naccording to Relay Cursor Connections Specification",
+    "lineNumber": 51,
+    "unknown": [
+      {
+        "tagName": "@throw",
+        "tagValue": "{Error} Error - on wrong pagination combinations"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "allEdges",
+        "description": "array of edges to be paginated"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "query arguments of the request"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "paginatedEdges - remaining edges to show"
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "checkArguments",
+    "memberof": "src/server/paginate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/server/paginate.js~checkArguments",
+    "access": "public",
+    "export": false,
+    "importPath": "create-graphql-server-connections/src/server/paginate.js",
+    "importStyle": null,
+    "description": "checks the given arguments from a graphql request\nand checks, if a valid combination of pagination\nhas been entered  ",
+    "lineNumber": 72,
+    "unknown": [
+      {
+        "tagName": "@throw",
+        "tagValue": "{Error} Error - on wrong pagination combination  "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "arguments, coming from graphql request"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "valid - if pagination arguments are valid"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "edgesToReturn",
+    "memberof": "src/server/paginate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/server/paginate.js~edgesToReturn",
+    "access": "private",
+    "export": false,
+    "importPath": "create-graphql-server-connections/src/server/paginate.js",
+    "importStyle": null,
+    "description": "returns edges processed with first or last  ",
+    "lineNumber": 108,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "allEdges",
+        "description": "edges, to apply first or last onto"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "arguments from the graphql request"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "array"
+      ],
+      "spread": false,
+      "description": "edges - the resulting edges"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "applyCursorsToEdges",
+    "memberof": "src/server/paginate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/server/paginate.js~applyCursorsToEdges",
+    "access": "private",
+    "export": false,
+    "importPath": "create-graphql-server-connections/src/server/paginate.js",
+    "importStyle": null,
+    "description": "position the array on the before or after cursor  ",
+    "lineNumber": 142,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "allEdges",
+        "description": "edges, to apply first or last onto"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "float"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "before",
+        "description": "contains createdAt (cursor) of a type"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "float"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "after",
+        "description": "contains createdAt (cursor) of a type"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "array"
+      ],
+      "spread": false,
+      "description": "edges - the positioned array of edges"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "function",
+    "name": "hasPreviousPage",
+    "memberof": "src/server/paginate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/server/paginate.js~hasPreviousPage",
+    "access": "private",
+    "export": false,
+    "importPath": "create-graphql-server-connections/src/server/paginate.js",
+    "importStyle": null,
+    "description": "has this page a previous page, if so true ",
+    "lineNumber": 194,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "allEdges",
+        "description": "edges"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "the request arguments"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "prevPage - has a previous page"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "hasNextPage",
+    "memberof": "src/server/paginate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/server/paginate.js~hasNextPage",
+    "access": "private",
+    "export": false,
+    "importPath": "create-graphql-server-connections/src/server/paginate.js",
+    "importStyle": null,
+    "description": "has this page a next page, if so true  ",
+    "lineNumber": 218,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "allEdges",
+        "description": "edges"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "the request arguments"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "nextPage - has a next page"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "name": "src/util/constants.js",
+    "content": "// @flow\n/* eslint-disable max-len */\n/* eslint-disable flowtype/no-weak-types */\n\n// kinds from graphql language\nexport {\n  NAME,\n  ARGUMENT,\n  NAMED_TYPE,\n  LIST_TYPE,\n  NON_NULL_TYPE,\n  FIELD_DEFINITION,\n  DIRECTIVE,\n  LIST,\n  INT,\n  STRING,\n  DOCUMENT,\n  OBJECT_TYPE_DEFINITION,\n  TYPE_EXTENSION_DEFINITION\n} from 'graphql/language/kinds';\n\n// name of the @paginate directive, which triggers pagination logic\nexport const PAGINATION_DIRECTIVE = 'paginate';\nexport const PAGINATION_BY = 'by';\nexport const PAGINATION_BOTH = 'both';\nexport const PAGINATION_SIMPLE = 'simple';\nexport const PAGINATION_CURSOR = 'cursor';\nexport const QUERY = 'Query';\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/util/constants.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 91,
+    "kind": "variable",
+    "name": "PAGINATION_DIRECTIVE",
+    "memberof": "src/util/constants.js",
+    "static": true,
+    "longname": "src/util/constants.js~PAGINATION_DIRECTIVE",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/constants.js",
+    "importStyle": "{PAGINATION_DIRECTIVE}",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "variable",
+    "name": "PAGINATION_BY",
+    "memberof": "src/util/constants.js",
+    "static": true,
+    "longname": "src/util/constants.js~PAGINATION_BY",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/constants.js",
+    "importStyle": "{PAGINATION_BY}",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "variable",
+    "name": "PAGINATION_BOTH",
+    "memberof": "src/util/constants.js",
+    "static": true,
+    "longname": "src/util/constants.js~PAGINATION_BOTH",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/constants.js",
+    "importStyle": "{PAGINATION_BOTH}",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "variable",
+    "name": "PAGINATION_SIMPLE",
+    "memberof": "src/util/constants.js",
+    "static": true,
+    "longname": "src/util/constants.js~PAGINATION_SIMPLE",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/constants.js",
+    "importStyle": "{PAGINATION_SIMPLE}",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "variable",
+    "name": "PAGINATION_CURSOR",
+    "memberof": "src/util/constants.js",
+    "static": true,
+    "longname": "src/util/constants.js~PAGINATION_CURSOR",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/constants.js",
+    "importStyle": "{PAGINATION_CURSOR}",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "variable",
+    "name": "QUERY",
+    "memberof": "src/util/constants.js",
+    "static": true,
+    "longname": "src/util/constants.js~QUERY",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/constants.js",
+    "importStyle": "{QUERY}",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "src/util/graphql.js",
+    "content": "import { Kind } from 'graphql';\nimport includes from 'lodash.includes';\n\nexport const SCALAR_TYPE_NAMES = [\n  'Int',\n  'Float',\n  'String',\n  'Boolean',\n  'ID',\n  'ObjID'\n];\n\nexport function getBaseType(type) {\n  if (type.kind === 'ListType' || type.kind === 'NonNullType') {\n    return getBaseType(type.type);\n  }\n  return type;\n}\n\nexport function argumentsToObject(argumentsAst) {\n  const result = {};\n  argumentsAst.forEach(argument => {\n    result[argument.name.value] = argument.value.value;\n  });\n  return result;\n}\n\nexport function isScalarField(field) {\n  return includes(SCALAR_TYPE_NAMES, getBaseType(field.type).name.value);\n}\n\nexport function buildName(name) {\n  return { kind: 'Name', value: name };\n}\n\nexport function buildTypeDefinition(name, fields, kind) {\n  return {\n    kind: kind || 'ObjectTypeDefinition',\n    name: buildName(name),\n    interfaces: [],\n    directives: [],\n    fields\n  };\n}\n\nexport function buildTypeExtension(type) {\n  return {\n    kind: Kind.TYPE_EXTENSION_DEFINITION,\n    definition: type\n  };\n}\n\nexport function buildTypeReference(name) {\n  if (name[name.length - 1] === '!') {\n    return {\n      kind: 'NonNullType',\n      type: buildTypeReference(name.substring(0, name.length - 1))\n    };\n  }\n\n  if (name[0] === '[' && name[name.length - 1] === ']') {\n    return {\n      kind: 'ListType',\n      type: buildTypeReference(name.substring(1, name.length - 1))\n    };\n  }\n\n  return {\n    kind: 'NamedType',\n    name: buildName(name)\n  };\n}\n\nexport function buildField(name, args, typeName) {\n  return {\n    kind: 'FieldDefinition',\n    name: buildName(name),\n    arguments: args,\n    directives: [],\n    type: buildTypeReference(typeName)\n  };\n}\n\nexport function buildArgument(name, type) {\n  return {\n    kind: 'InputValueDefinition',\n    name: buildName(name),\n    type: buildTypeReference(type),\n    defaultValue: null,\n    directives: []\n  };\n}\n\nexport function addPaginationArguments(field) {\n  field.arguments.push(buildArgument('lastCreatedAt', 'Float'));\n  field.arguments.push(buildArgument('limit', 'Int'));\n}\n\n// Apply all the directives that modify the field's schema. At this stage\n// this is simply the pagination directives, which add pagination arguments\n// to the field.\nexport function applyCustomDirectives(field) {\n  field.directives.forEach(directive => {\n    const directiveName = directive.name.value;\n    const isPaginated = includes(\n      ['hasMany', 'hasAndBelongsToMany', 'belongsToMany'],\n      directiveName\n    );\n    if (isPaginated) {\n      addPaginationArguments(field);\n    }\n  });\n}\n\nexport function idArgument() {\n  return buildArgument('id', 'ObjID!');\n}\n",
+    "static": true,
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/src/util/graphql.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "SCALAR_TYPE_NAMES",
+    "memberof": "src/util/graphql.js",
+    "static": true,
+    "longname": "src/util/graphql.js~SCALAR_TYPE_NAMES",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{SCALAR_TYPE_NAMES}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "getBaseType",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~getBaseType",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{getBaseType}",
+    "description": "",
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "argumentsToObject",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~argumentsToObject",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{argumentsToObject}",
+    "description": "",
+    "lineNumber": 20,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "argumentsAst",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "function",
+    "name": "isScalarField",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~isScalarField",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{isScalarField}",
+    "description": "",
+    "lineNumber": 28,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "field",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "function",
+    "name": "buildName",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~buildName",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{buildName}",
+    "description": "",
+    "lineNumber": 32,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"kind\": string, \"value\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "name": "buildTypeDefinition",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~buildTypeDefinition",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{buildTypeDefinition}",
+    "description": "",
+    "lineNumber": 36,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fields",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "kind",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"kind\": *, \"name\": *, \"interfaces\": *, \"directives\": *, \"fields\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "function",
+    "name": "buildTypeExtension",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~buildTypeExtension",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{buildTypeExtension}",
+    "description": "",
+    "lineNumber": 46,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"kind\": *, \"definition\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "function",
+    "name": "buildTypeReference",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~buildTypeReference",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{buildTypeReference}",
+    "description": "",
+    "lineNumber": 53,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"kind\": string, \"name\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "function",
+    "name": "buildField",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~buildField",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{buildField}",
+    "description": "",
+    "lineNumber": 74,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "typeName",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"kind\": string, \"name\": *, \"arguments\": *, \"directives\": *, \"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "function",
+    "name": "buildArgument",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~buildArgument",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{buildArgument}",
+    "description": "",
+    "lineNumber": 84,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"kind\": string, \"name\": *, \"type\": *, \"defaultValue\": *, \"directives\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 108,
+    "kind": "function",
+    "name": "addPaginationArguments",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~addPaginationArguments",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{addPaginationArguments}",
+    "description": "",
+    "lineNumber": 94,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "field",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 109,
+    "kind": "function",
+    "name": "applyCustomDirectives",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~applyCustomDirectives",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{applyCustomDirectives}",
+    "description": "",
+    "lineNumber": 102,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "field",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 110,
+    "kind": "function",
+    "name": "idArgument",
+    "memberof": "src/util/graphql.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/util/graphql.js~idArgument",
+    "access": "public",
+    "export": true,
+    "importPath": "create-graphql-server-connections/src/util/graphql.js",
+    "importStyle": "{idArgument}",
+    "description": "",
+    "lineNumber": 115,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "[![npm version](https://badge.fury.io/js/create-graphql-server-connections.svg)](http://badge.fury.io/js/create-graphql-server-connections) [![Build Status](https://travis-ci.org/tobkle/create-graphql-server-connections.svg?branch=master)](https://travis-ci.org/tobkle/create-graphql-server-connections) [![Coverage Status](https://coveralls.io/repos/github/tobkle/create-graphql-server-connections/badge.svg?branch=master)](https://coveralls.io/github/tobkle/create-graphql-server-connections?branch=master)\n\n# create-graphql-server-connections\n\nBuild Relay like connections for cursor based pagination.\n\nTODO: First prototype. Didn't do thoroughly testing so far.\n\nFor array-like fields, you can generate a connection with forward and backward pagination, using first, last, before, after. The pagination starts after applying e.g. filters and orderBys on the remaining document result set.\n\n[It implements the algorithm of the Relay connection specification.](https://facebook.github.io/relay/graphql/connections.htm#sec-Edges)\n\nIts generator is triggered only, if there is a directive on header level. If the directive appears, all paginated fields will get cursor-based connections.\n```javascript\n@paginate(by: \"cursor\")\n```\n\nIf you want to have the \"simple\" pagination for a type instead, use the following or don't enter the paginate directive.\n```javascript \n@paginate(by: \"simple\")\n```\n\nYou can also combine both, meaning all paginated fields will be added to the schema as \"simple\" paginated fields, but also as a duplicate named as <field>Connection. The latter one will be added as \"cursor\" based paginated field. Use one of the following alternatives therefore:\n```javascript\n@paginate(by: \"both\")\nor:\n@paginate(by: [\"simple\", \"cursor\"])\n```\n\n## Purpose\nYou build a GraphQL server with the npm package \"create-graphql-server\", which serves as a backend generator to web applications. This \"create-graphql-server\" generates schemas, resolvers and models for an express-js server.\n\nThis package enhances the generator to build additional pagination arguments and required resolvers.\n\nIt provides the following additional arguments:\n\nUse:\n* \"first\" \"after\"\n* \"last\" \"before\"\n\n### Forward Pagination\nForward Pagination returns edges (documents), which are coming after the cursor <after> (which is a document's createdAt in our case). It returns at most a number of <first> edges.\n\nThe arguments:\n* first: takes a non-negative integer\n* after: takes the cursor type\n \n### Backward Pagination \nBackward Pagination returns edges (documents), which are coming before the cursor <before>. It returns at most a number of <last> edges.\n\nThe arguments:\n* last: takes a non-negative integer\n* before: takes the cursor type\n\n## Installation\n\n### Adjust schema\nIn create-graphql-server go to \"generate/schema/index\".\n\nAdd the following code. The import at the beginning the rest at the end of the file.\n```javascript\nimport { enhanceSchemaWithConnections } from 'create-graphql-server-connections';  // <=== here\n...\n...\n  const outputSchema = enhanceSchemaWithConnections(outputSchema);   // <=== here\n  return outputSchema;\n}\n```\n\n### Adjust model\nIn create-graphql-server go to \"generate/model/index\".\n\nAdjust the following code.\n```javascript\n...\nimport { templates } from 'create-graphql-server-connections';     // <=== here\n\n...\n\nexport function generateModelAst(inputSchema) {\n  // the last template path, determines the start template: type/default\n  // the last path has the highest priority and may overwrite\n  // partial templates, if they have equal names\n  const templateCode = getCode(MODEL, {\n    inputSchema,\n    templatePaths: [\n      templates.model,                                             // <=== here\n      [modulePath, 'templates', 'model', 'auth'],\n      [__dirname, 'templates'],\n    ]\n  });\n\n...\n }\n```\n\n### Adjust getContext\nIn create-graphql-server go to \"generate/util/getContext.js\"\n```javascript\nimport { getPaginationContext } from 'create-graphql-server-connections';  // <=== here\n...\n\n  // this is the returned data context for the later template processing\n  return {\n    authorize,\n    isUserType,\n    typeName,\n    TypeName,\n    User,\n    userRoles,\n    docRoles,\n    firstUserRole,\n    roleField,\n    singularFields,\n    paginatedFields,\n    ...getPaginationContext(inputSchema)                                   // <=== here\n  };\n}\n...\n\n```\n\n### Adjust type resolvers\nIn create-graphql-server go to \"generate/resolvers/index\".\n\nAdjust the following code.\n```javascript\n...\nimport { templates } from 'create-graphql-server-connections';     // <=== here\n\n...\n\nexport function generateModelAst(inputSchema) {\n  // the last template path, determines the start template: type/default\n  // the last path has the highest priority and may overwrite\n  // partial templates, if they have equal names\n  const templateCode = getCode(MODEL, {\n    inputSchema,\n    templatePaths: [\n      templates.resolvers,                                         // <=== here\n      [modulePath, 'templates', 'model', 'auth'],\n      [__dirname, 'templates'],\n    ]\n  });\n\n...\n\n }\n```\n\n### Adjust default schema\nIn create-graphql-server go to \"skel/schema/index.js\".\n\nAdjust the following code:\n```javascript\n...\nimport path from 'path';\t\t\t\t\t\t\t\t\t\t\t\t// <=== here\nimport { templates } from 'create-graphql-server-connections';          // <=== here\n...\n...\n\ntypeDefs.push(buildRequiredTypes());\n\ntypeDefs.push(requireGraphQL( \t\t\t\t\t\t\t\t\t\t\t// <=== here\n  path.join(...templates.schema, 'common', 'requiredTypes.graphql')\t\t// <=== here\n));\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t// <=== here\n\nexport default typeDefs;\n\n```\nDo the same again in \"test/output-app/schema/index.js\"\n\n### Adjust resolver templates\nIn create-graphql-server go to \"generate/resolvers/templates/default\"\n\nChange \"default_default\" template, to this:\n```javascript\n/* eslint-disable prettier */\n/* eslint comma-dangle: [2, \"only-multiline\"] */\nconst resolvers = {\n{{> connectionTypes}}                     // <=== here\n  {{TypeName}}: {\n    id({{typeName}}) {\n      return {{typeName}}._id;\n    },\n{{#each singularFields}}\n{{> defaultSingularField }}\n{{/each}}\n{{> connectionPaginatedFields}}          // <=== here\n\n  },\n  Query: {\n    {{typeName}}s(root, args, { {{TypeName}}, me }) {\n      return {{TypeName}}.find(args, me, '{{typeName}}s');\n    },\n\n    {{typeName}}(root, { id }, { {{TypeName}}, me }) {\n      return {{TypeName}}.findOneById(id, me, '{{typeName}}');\n    }\n  },\n\n...\n```\nPlease add these to referenced partial templates \"connectionTypes\" and \"connectionPaginatedFields\" to the resolver.\nThese two partials are coming from this npm module. \n\nIf you have create-graphql-server-authorization installed as well, do the same adjustments with your template \"authorize_default\".\n\n### Adjust model templates\nIn create-graphql-server go to \"generate/model/templates\"\n\nDo the same for all templates:\n* default/default_default.template\n* user/default_user.template\n\nIf you have \"create-graphql-server-authorization\" implemented, do it also for\n* authorize_default.template\n* authorize_user.template\n\nChange \"default/default_default.template\" template. Replace all three lines:\n```javascript\n{{#each paginatedFields }}\n{{> defaultPaginatedField }}\n{{/each}}\n```\n\nby this:\n```javascript\n{{> connectionPaginatedFields}}\n```\n\n### Add default resolver for pageInfo\nIn create-graphql-server go to \"skel/resolvers/index.js\". We have to add it here, as it is valid for all generated types, but we can add it only once.\n\nAdjust the code...\n```javascript\n\n...\nimport { resolvers } from 'create-graphql-server-connections';   // <=== here\nmerge(resolvers, resolvers.pageInfo);                            // <=== here\n\nexport default resolvers;\n```\nDo the same in \"test/output-app/resolvers/index.js\"\n\n### Add paginate to the server context\nIn create-graphql-server go to \"skel/server/index.js\".\n```javascript\n...\nimport { paginate } from 'create-graphql-server-connections';                       // <=== here\n...\n\napp.use('/graphql', (req, res, next) => {\n  passport.authenticate('jwt', { session: false }, (err, me) => {\n    req.context = addModelsToContext({ \n      db, pubsub, me, UserCollection, findByIds, log, prepareQueries, paginate     // <=== here\n    });\n    graphqlExpress(() => {\n...\n...\n\t})\n  })\n})\n```\nDo the same in \"test/output-app/server/index.js\".\n\n### Package.json\nAdd to the \"skel/package.json\" the following entry:\n```javascript\n\"create-graphql-server-connections\": \"^0.0.4\",\n``\n\n### Finally\nIf you are having troubles somewhere, have a look into the running example at:\n[tobkle/create-graphql-server branch: Relay-Pagination](https://github.com/tobkle/create-graphql-server/tree/Relay-Pagination)\n\n## Documentation\n[API Documentation](https://tobkle.github.io/create-graphql-server-connections/)\n\n## Tests\nTODO:\n```bash\nyarn test\n```\n\n## Contributing\nIn lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.\n",
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"create-graphql-server-connections\",\n  \"version\": \"0.0.4\",\n  \"description\": \"Enhance create-graphql-server with Relay Connections for Cursor-based Pagination\",\n  \"main\": \"index.js\",\n  \"repository\": \"git@github.com:tobkle/create-graphql-server-connections.git\",\n  \"author\": \"Tobias Klemmer <tobias@klemmer.info>\",\n  \"license\": \"MIT\",\n  \"keywords\": [\n    \"create-graphql-server\",\n    \"relay\",\n    \"connections\",\n    \"cursor\",\n    \"pagination\"\n  ],\n  \"bugs\": {\n    \"url\": \"https://github.com/tobkle/create-graphql-server-connections/issues\"\n  },\n  \"options\": {\n    \"mocha\": \"--require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*-test.js\"\n  },\n  \"scripts\": {\n    \"test\": \"npm run lint && npm run check && npm run testonly\",\n    \"testonly\": \"babel-node ./node_modules/.bin/_mocha $npm_package_options_mocha\",\n    \"t\": \"babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload\",\n    \"lint\": \"eslint --fix src || (printf '\\\\033[33mTry: \\\\033[7m npm run lint -- --fix \\\\033[0m\\\\n' && exit 1)\",\n    \"check\": \"flow check\",\n    \"check-cover\": \"for file in {src/*.js,src/**/*.js}; do echo $file; flow coverage $file; done\",\n    \"build\": \"babel src --optional runtime --ignore __tests__ --out-dir dist/ && cp package.json dist/ && npm run build-dot-flow\",\n    \"build-dot-flow\": \"find ./src -name '*.js' -not -path '*/__tests__*' | while read filepath; do cp $filepath `echo $filepath | sed 's/\\\\/src\\\\//\\\\/dist\\\\//g'`.flow; done\",\n    \"watch\": \"babel-node ./resources/watch.js\",\n    \"cover\": \"babel-node ./node_modules/.bin/isparta cover --root src --report html _mocha -- $npm_package_options_mocha\",\n    \"cover:lcov\": \"babel-node ./node_modules/.bin/isparta cover --root src --report lcovonly _mocha -- $npm_package_options_mocha\",\n    \"preversion\": \". ./resources/checkgit.sh && npm test\",\n    \"prepublish\": \". ./resources/prepublish.sh\",\n    \"gitpublish\": \". ./resources/gitpublish.sh\",\n    \"prettier\": \"node_modules/.bin/prettier src/**/**/*.js --write\",\n    \"esdoc\": \"node_modules/.bin/esdoc -c .esdoc.json\",\n    \"debug\": \"babel-node --inspect src/__tests__/debug\",\n    \"nodemon\": \"nodemon -L --watch src src/__tests__/debug --exec babel-node --inspect\"\n  },\n  \"homepage\": \"https://github.com/tobkle/create-graphql-server-connections#readme\",\n  \"devDependencies\": {\n    \"assert\": \"^1.4.1\",\n    \"babel-cli\": \"6.24.1\",\n    \"babel-eslint\": \"7.2.3\",\n    \"babel-plugin-syntax-async-functions\": \"6.13.0\",\n    \"babel-plugin-syntax-async-generators\": \"6.13.0\",\n    \"babel-plugin-transform-class-properties\": \"6.24.1\",\n    \"babel-plugin-transform-flow-strip-types\": \"6.22.0\",\n    \"babel-plugin-transform-object-rest-spread\": \"6.23.0\",\n    \"babel-preset-env\": \"^1.5.2\",\n    \"bson-objectid\": \"^1.1.5\",\n    \"chai\": \"4.1.1\",\n    \"chai-fs\": \"^1.0.0\",\n    \"chai-json-equal\": \"0.0.1\",\n    \"chai-spies-next\": \"^0.8.0\",\n    \"chai-string\": \"^1.4.0\",\n    \"chai-subset\": \"1.5.0\",\n    \"coveralls\": \"^2.13.1\",\n    \"create-graphql-server-authorization\": \"^0.0.42\",\n    \"cross-env\": \"^5.0.5\",\n    \"dataloader\": \"^1.3.0\",\n    \"esdoc\": \"^1.0.1\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-flow-type-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.5.0\",\n    \"eslint-config-prettier\": \"^2.3.0\",\n    \"eslint-config-react-app\": \"^2.0.0\",\n    \"eslint-plugin-babel\": \"4.1.2\",\n    \"eslint-plugin-flowtype\": \"2.35.0\",\n    \"eslint-plugin-import\": \"^2.7.0\",\n    \"eslint-plugin-prettier\": \"^2.1.2\",\n    \"eslint-plugin-react\": \"^7.3.0\",\n    \"flow-bin\": \"0.52.0\",\n    \"isparta\": \"4.0.0\",\n    \"mocha\": \"3.5.0\",\n    \"mocha-lcov-reporter\": \"^1.3.0\",\n    \"nodemon\": \"1.11.0\",\n    \"prettier\": \"^1.5.3\",\n    \"sane\": \"2.0.0\"\n  },\n  \"dependencies\": {\n    \"global\": \"^4.3.2\",\n    \"graphql\": \"^0.11.2\",\n    \"iterall\": \"^1.1.0\",\n    \"jwt-simple\": \"^0.5.1\",\n    \"lodash\": \"4.16.4\",\n    \"lodash.clonedeep\": \"^4.5.0\",\n    \"lodash.includes\": \"^4.3.0\",\n    \"lodash.isarraylike\": \"^4.2.0\",\n    \"lodash.isobject\": \"^3.0.2\",\n    \"lodash.merge\": \"^4.6.0\",\n    \"mongodb\": \"^2.2.31\",\n    \"node-fetch\": \"^1.7.2\"\n  }\n}\n",
+    "longname": "/Users/Toby/MICRO/create-graphql-server-connections/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
