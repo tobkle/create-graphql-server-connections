@@ -5,7 +5,6 @@ node_js:
 git:
   depth: 5
 cache: yarn
-group: deprecated-2017Q3
 script:
 - if [[ "$TRAVIS_JOB_NUMBER" == *.1 ]]; then npm run lint && npm run check && npm
   run cover:lcov && cat ./coverage/lcov.info | coveralls; else npm run testonly; fi
